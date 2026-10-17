@@ -2086,10 +2086,16 @@ This demonstrates true unification: one modest fundamental tension (~2 grams-for
 The linear confinement potential has been confirmed through:
 
 
-**The Deep Insight**
+**The Deep Insight: Confinement Curvature ($K \approx 4.06$) of the Binding Plenum**
 
 
-Quark confinement is not a mysterious quantum effect—it is the **mechanical resistance of stretched flux**. The "color force" of QCD is simply the universal flux tension $\sigma$ manifesting in the topological context of hadron structure.
+Quark confinement is not a mysterious quantum effect—it is the **mechanical resistance of the binding plenum**. While free leptons follow pure winding scaling ($m_n = m_e n^2$), quarks confined inside a hadron obey the binary winding relation $m_q = m_e (K n_q)^2$ ($n_q = 2^k$) with a **confinement curvature factor $K \approx 4.06$** (`[Calibrated]`). Physically, $K$ is the curvature amplification imposed by the **binding plenum** (the gluon field binding the interlocking triune crystallization):
+
+$$
+K = \sqrt{1 + \frac{\mathcal{E}_{\text{binding}}}{\mathcal{E}_{\text{core}}}} = \sqrt{1 + \frac{L_{\text{binding}}}{L_{\mathcal{P}}^{\text{core}}}} \approx 4.06
+$$
+
+Rather than remaining an empirical fit factor, $K$ is targeted for first-principles derivation from the plenum's elastic modulus ($E \approx 2.9 \times 10^{35}\text{ Pa}$), universal plenum tension ($\sigma = 0.0212\text{ N}$), and the minimum-energy interlocking geometry of the triune crystallization.
 
 
 The Plenum Ontology reveals that the strong force and gravity are two aspects of the same phenomenon: the plenum's response to being stretched and compressed. One substance, one tension, infinite manifestations.
@@ -2989,10 +2995,19 @@ An electron is both a localized compression structure and an extended wave becau
 **The Deep Insight**
 
 
-Quantum mechanics is not a fundamental theory—it's the effective description of topological dynamics in a continuous field. The "quantum" appears because nature only permits certain stable configurations, much like how only specific compression structure types are stable in a rope.
+Quantum mechanics is not a fundamental theory—it's the effective description of topological and stress-wave dynamics in a continuous superfluid plenum. The "quantum" appears because nature only permits certain stable configurations, much like how only specific compression structure types are stable in a rope.
 
 
 This explains why our universe appears digital at small scales while being fundamentally continuous: we're seeing the discrete catalog of stable topological forms that the dipole superfluid plenum can support.
+
+
+**Exact vs. Approximate Regimes and Falsification Criteria for Stress-Wave QM**
+
+
+In the continuum mechanics formulation ($\psi(\vec{r},t) = \sigma(\vec{r},t)/\sigma_0$), it is essential to distinguish what is exact from what is a controlled approximation:
+
+- **Controlled Approximations Yielding the Linear Schrödinger Equation:** The underlying relativistic stress-wave equation of the plenum is exact in the continuum. The standard linear Schrödinger equation ($i\hbar \partial_t \psi = -\frac{\hbar^2}{2m}\nabla^2\psi + V\psi$) emerges by factoring out the Compton carrier oscillation ($e^{-imc^2t/\hbar}$) under two explicit approximations: (1) the **non-relativistic slow-envelope limit** ($|\partial_t^2\psi| \ll \omega_0|\partial_t\psi|$, $E_k \ll mc^2$) and (2) the **small-strain Hookean limit** ($\epsilon \ll \epsilon_{\text{crit}}$, where $\sigma = E\epsilon$ is strictly linear with $E \approx 2.9 \times 10^{35}\text{ Pa}$).
+- **Falsification Criteria:** This stress-wave derivation is falsified if: (1) isolated matter waves in true vacuum exhibit spontaneous, environment-independent collapse damping or heating below the superfluid critical stress threshold (since the dipole superfluid plenum has strictly zero viscosity below threshold), (2) high-strain confinement at the Compton scale ($\Delta x \to \bar{\lambda}_e$) fails to exhibit nonlinear Gross-Pitaevskii-like self-stress stabilization ($\propto |\psi|^2\psi$), or (3) matter-wave interferometry deviates from the relativistic plenum dispersion relation $\omega^2 = c^2 k^2 + \omega_0^2$.
 
 
 The success of quantum mathematics reflects the deep truth that we're dealing with topology, not point particles. The quantum revolution was actually the beginning of our understanding of cosmic compression-topology theory.
