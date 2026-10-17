@@ -1,4 +1,4 @@
-# Flux Monism Topology Tools
+# Dipole Superfluid Plenum Topology Tools
 
 **Note**: These tools are distinct from the validated magnetic moment predictor in `src/`. 
 The magnetic moment code achieves 10⁻⁶ accuracy. These topology tools focus on 

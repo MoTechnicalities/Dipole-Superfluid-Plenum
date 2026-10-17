@@ -1,4 +1,4 @@
-# Flux Monism Repository Updates - January 16, 2026
+# Dipole Superfluid Plenum Repository Updates - January 16, 2026
 
 ## 🌊 QUANTUM MECHANICS DERIVED: Stress Waves Explain Everything (Jan 16, 2026)
 
@@ -116,7 +116,7 @@ All standard QM tests confirm stress wave picture:
 
 ### From Abstract QFT to Mechanical Reality
 
-**Conceptual revolution**: Flux Monism has been **completely reframed** from abstract quantum field theory into **classical continuum mechanics**. Particles are now understood as **twisted compressions in an elastic medium**—a mechanical picture that eliminates quantum mysticism.
+**Conceptual revolution**: The Plenum Ontology has been **completely reframed** from abstract quantum field theory into **classical continuum mechanics**. Particles are now understood as **twisted compressions (crystallizations) in a dipole superfluid plenum**—a mechanical picture that eliminates quantum mysticism.
 
 **Key Translation**:
 - **Particles** = Topological structures (knots) creating compression stress fields

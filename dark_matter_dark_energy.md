@@ -1,5 +1,5 @@
 # Dark Matter and Dark Energy as Galactic Vortex Structure
-### Flux Monism — Cosmological Phenomena from Topology
+### Dipole Superfluid Plenum — Cosmological Phenomena from Topology
 **Author:** Mogir Rofick  
 **Date:** December 4, 2025
 
@@ -7,7 +7,7 @@
 
 # 1. Overview
 
-In Flux Monism, the universe is a **magnetic flux medium**—a continuous field that supports topological excitations at all scales:
+In the Plenum Ontology, the universe is a **dipole superfluid plenum**—a continuous medium that supports topological excitations and crystallizations at all scales:
 
 - **Particle scale** (10⁻¹⁵ m): Torus knots → fermions, bosons
 - **Galactic scale** (10²¹ m): Vortex structures → dark matter, dark energy
@@ -120,7 +120,7 @@ Where $\Omega_\Lambda \approx 0.7$ is "dark energy."
 
 ## 3.2 Flux Density Gradient Hypothesis
 
-In Flux Monism, the universe has a **flux density gradient** from cosmological expansion:
+In the Plenum Ontology, the universe has a **plenum density gradient** from cosmological expansion:
 
 $$
 \rho_B(z) = \rho_0 (1 + z)^\alpha
@@ -694,7 +694,7 @@ The cosmic web (filaments, voids, clusters) is a **vortex network**:
 
 # 12. Conclusion
 
-Flux Monism provides a **unified explanation** for dark matter and dark energy:
+The Plenum Ontology provides a **unified explanation** for dark matter and dark energy:
 
 - **Dark matter**: Inertial mass of galactic vortex structures
 - **Dark energy**: Refraction through cosmological flux density gradient

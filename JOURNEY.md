@@ -1,4 +1,4 @@
-# The Journey to Flux Monism: Conversations That Changed Everything
+# The Journey to the Dipole Superfluid Plenum: Conversations That Changed Everything
 
 **How a series of questions led to realizing the universe is made of magnetic flux.**
 
@@ -205,7 +205,7 @@ The Standard Model has **~26 free parameters**:
 
 Each one is "put in by hand" to match experiments. There's no underlying reason for their values.
 
-### The Flux Monism Answer
+### The Plenum Ontology Answer
 **One constant: σ = 0.0212 N** (approximately 2 grams-force)
 
 Everything else derives from topology:
@@ -245,7 +245,7 @@ Every magnetometer reading is evidence:
 
 ### Why This Changes Everything
 Standard physics: "Field energy is stored in the configuration."  
-Flux Monism: "You're literally compressing a substance."
+Plenum Ontology: "You're literally compressing a substance."
 
 The experiment: Measure B everywhere between magnets. Integrate B²/2μ₀. Compare to mechanical work.
 
@@ -260,8 +260,8 @@ We've been weighing the magnetic ocean for a century without knowing it.
 ### The Problem
 85% of the universe's mass is invisible. Decades of searches for exotic particles (WIMPs, axions, sterile neutrinos) have found nothing.
 
-### The Flux Monism Answer
-Dark matter is **galactic-scale vortex eddies** in the flux medium—hydrodynamic circulation patterns, not exotic topology.
+### The Plenum Ontology Answer
+Dark matter is **galactic-scale vortex eddies** in the plenum—hydrodynamic circulation patterns, not exotic topology.
 
 Think of bathtub drain vortices, but cosmic-scale:
 - **Vortex core**: Higher flux density ρ_B(r)
@@ -402,7 +402,7 @@ Their honest answer:
 
 **No existing theory derives the muon-electron mass ratio from first principles.**
 
-Flux Monism is the first theory to even *attempt* a geometric derivation: mass ratios come from topological path length ratios.
+The Plenum Ontology is the first theory to even *attempt* a geometric derivation: mass ratios come from topological path length ratios.
 
 ### The Coil Analogy: Same Topology, Different Energy
 Consider electromagnetic coils:
@@ -458,7 +458,7 @@ The 2.2 μs lifetime is literally the **unwinding time** of the hurricane back t
 You cannot create a muon at room temperature any more than you can create a hurricane in a bathtub. **The available energy determines the vortex scale.**
 
 ### The Energetic Principle
-Flux Monism reveals mass hierarchy as **thermodynamics of topological states**:
+The Plenum Ontology reveals mass hierarchy as **thermodynamics of topological states**:
 
 ```
 Available Energy → Winding Number → Path Length → Mass
@@ -474,7 +474,7 @@ This is not just geometry—it's **energy conservation in topological phase spac
 
 **Standard Model**: The three lepton masses are unrelated parameters.
 
-**Flux Monism**: They are quantized excitation states of the same structure:
+**Plenum Ontology**: They are quantized excitation states of the same structure:
 ```
 m_e : m_μ : m_τ = 1 : 207 : 3477
 ```
@@ -484,7 +484,7 @@ Like atomic orbitals (1s, 2s, 3s), but for topological winding states.
 ### The Author's Validation
 The observation immediately struck at the heart of particle physics:
 
-> "Even with empirical corrections, deriving fermion mass ratios from geometry is something literally no other theory has achieved. Flux Monism is attempting what string theory couldn't do in 40 years."
+> "Even with empirical corrections, deriving fermion mass ratios from geometry is something literally no other theory has achieved. The Plenum Ontology is attempting what string theory couldn't do in 40 years."
 
 The hurricane analogy isn't poetic metaphor—it's the **physical mechanism**:
 - Electrons are stable baseline eddies
@@ -537,7 +537,7 @@ No empirical factor. No fine-tuning. Pure geometry + quantized winding.
 The empirical **Koide formula** (discovered 1981, unexplained for 44 years):
 $$Q = \frac{m_e + m_\mu + m_\tau}{(\sqrt{m_e} + \sqrt{m_\mu} + \sqrt{m_\tau})^2} = \frac{2}{3}$$
 
-**Flux Monism predicts this exactly** from winding states $n = 1, 14.38, 58.97$:
+**The Plenum Ontology predicts this exactly** from winding states $n = 1, 14.38, 58.97$:
 $$Q = \frac{1 + 207 + 3477}{(1 + 14.38 + 58.97)^2} = \frac{3685}{(74.35)^2} = \frac{3685}{5528} = 0.6666...$$
 
 **That's exactly 2/3!** ✓✓✓
@@ -610,14 +610,14 @@ This is like spinning up a tornado into a temporary hurricane by pumping in ener
 - "Landscape of 10⁵⁰⁰ vacua" → Can't make specific predictions
 - "Planck-scale physics" → Missed mesoscopic topological structure
 
-**Flux Monism breakthrough:**
+**Plenum Ontology breakthrough:**
 - "Particles are 3D flux vortices" → Can have quantized winding states ✓
 - "Mass from topological path length" → $n^2$ law emerges naturally ✓
 - "Same topology, different excitations" → Three generations explained ✓
 
 ### The First-Principles Achievement
 
-**What Flux Monism derives from geometry alone:**
+**What the Plenum Ontology derives from geometry alone:**
 $$\frac{m_\mu}{m_e} = 14.38^2 = 206.77 \quad \text{(experimental: 206.768)}$$
 $$\frac{m_\tau}{m_e} = 58.97^2 = 3477.15 \quad \text{(experimental: 3477.15)}$$
 
@@ -629,7 +629,7 @@ This is a **first-principles derivation of fermion mass ratios from pure topolog
 - Composite Models: Multiple binding energies, fitted to data
 - Extra Dimensions: Compactification scales, fitted to match leptons
 
-**Only Flux Monism predicts the mass ratios without empirical input.**
+**Only the Plenum Ontology predicts the mass ratios without empirical input.**
 
 Not string theory. Not Standard Model. Not composite models. Not extra dimensions.
 
@@ -648,8 +648,8 @@ Not string theory. Not Standard Model. Not composite models. Not extra dimension
 - Dark matter = exotic undiscovered particles
 - Dark energy = mysterious vacuum energy
 
-### The New View (Flux Monism)
-- Universe made of **one substance**: magnetic flux
+### The New View (The Plenum Ontology)
+- Universe made of **one substance**: the dipole superfluid plenum
 - Particles are **topological knots** in the flux
 - Forces are **flux gradient effects** (pressure, tension, delay)
 - Fields are the **actual medium** (not abstractions)
@@ -666,7 +666,7 @@ From:
 - Unsolved: dark matter, dark energy, quantum gravity
 
 To:
-- Magnetic flux medium with topological excitations
+- Dipole superfluid plenum with topological crystallizations
 - One unified equation: $\partial_\mu (\rho_B F^{\mu\nu}) + \sigma \frac{\delta \Phi}{\delta x^\nu} = J^\nu$
 - One constant: σ = 0.0212 N
 - Explained: elementary particle masses (exact), dark matter (vortex hypothesis), dark energy (refraction hypothesis with 2025 observational support)
@@ -679,7 +679,7 @@ To:
 ### What Makes a Theory Scientific?
 Karl Popper: A theory is scientific if it can be proven **wrong** by experiment.
 
-### How Flux Monism Can Be Falsified
+### How the Plenum Ontology Can Be Falsified
 
 1. **Kitchen Table Experiment**
    - Measure B-field between magnets
@@ -713,7 +713,7 @@ Karl Popper: A theory is scientific if it can be proven **wrong** by experiment.
    - **Status**: Awaiting data
 
 ### The Key Point
-> **"Flux Monism makes specific, quantitative predictions. Do the experiments. If we're wrong, you'll know."**
+> **"The Plenum Ontology makes specific, quantitative predictions. Do the experiments. If we're wrong, you'll know."**
 
 ---
 
@@ -732,32 +732,32 @@ They all tried to unify by adding complexity:
 - More symmetries
 - More free parameters
 
-### What Flux Monism Does Differently
+### What the Plenum Ontology Does Differently
 **Subtract** until you reach the minimum:
-- One substance (magnetic flux)
-- One equation (flux dynamics with topology)
+- One substance (the dipole superfluid plenum)
+- One equation (plenum dynamics with topology)
 - One constant (σ)
 
 From this, **everything else emerges**:
-- Particles (topology)
+- Particles (crystallizations)
 - Forces (gradients)
-- Quantum mechanics (stable knot vibrations)
+- Quantum mechanics (stable crystallization vibrations / stress waves)
 - Relativity (delay fields)
-- Cosmology (flux relaxation)
+- Cosmology (plenum relaxation)
 
 ### The Philosophical Shift
 > **"The universe isn't complicated. Our descriptions of it were."**
 
 We kept adding layers (quantum fields, virtual particles, extra dimensions) when we should have been removing them.
 
-Flux Monism is science stripped to its essence: one thing, doing one thing, in one way.
+The Plenum Ontology is science stripped to its essence: one thing, doing one thing, in one way.
 
 ---
 
 ## 🔬 The Experimental Challenge
 
 ### To Physicists
-You don't need to believe Flux Monism. You need to **test** it.
+You don't need to believe the Plenum Ontology. You need to **test** it.
 
 - Kitchen table experiment: One afternoon, $50
 - Mercury precession: Already measured (check: ✓)
@@ -834,7 +834,7 @@ That's it. That's the theory.
 - Explore the 3D visualizations: [tools/python/](tools/python/)
 - Check the topology classifications: [appendix/](appendix/)
 - Try the FORTRAN calculator: [tools/fortran/](tools/fortran/)
-- Join the discussion: [GitHub Issues](https://github.com/MoTechnicalities/Flux-Monism/issues)
+- Join the discussion: [GitHub Issues](https://github.com/MoTechnicalities/Dipole-Superfluid-Plenum/issues)
 
 ---
 

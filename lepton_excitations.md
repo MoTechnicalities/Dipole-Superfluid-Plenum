@@ -1,5 +1,5 @@
 # Lepton Excitations in the Flux Medium  
-### Flux Monism — Fermion Spectrum Part I  
+### Dipole Superfluid Plenum — Fermion Spectrum Part I  
 **Author:** Mogir Rofick  
 **Date:** 2025  
 
@@ -7,7 +7,7 @@
 
 ## 1. The Flux Medium as the Fundamental Substrate
 
-In Flux Monism, the universe's underlying substance is a 3-dimensional, continuous electromagnetic flux field $\Phi$, whose local density determines the **proper metric** of spacetime. Matter does not *sit in* the medium—matter *is* a stable topological excitation **of** the medium.
+In the Plenum Ontology, the universe's underlying substance is a 3-dimensional, continuous dipole superfluid plenum $\Phi$, whose local density determines the **proper metric** of spacetime. Matter does not *sit in* the medium—matter *is* a stable topological crystallization **of** the medium.
 
 We take the electromagnetic energy density:
 
@@ -201,7 +201,7 @@ The Koide formula is the signature of **harmonic excitation states**. It's not a
 2. Quantized winding numbers ($n = 1, 14.38, 58.97$)
 3. Quadratic mass-energy relation ($m \propto n^2$)
 
-**Flux Monism is the only theory that derives the Koide formula from first principles.**
+**The Plenum Ontology is the only theory that derives the Koide formula from first principles.**
 
 ---
 
@@ -494,7 +494,7 @@ $$
 Mass is not "energy added to spacetime."  
 Mass **is the curvature of the flux medium itself**.
 
-This provides a bridge between Flux Monism and GR:  
+This provides a bridge between the Plenum Ontology and GR:  
 Einstein curvature expresses macroscopic flux-density gradients.
 
 ---
@@ -524,7 +524,7 @@ Einstein curvature expresses macroscopic flux-density gradients.
 
 In muon-catalyzed fusion, muons temporarily replace electrons in hydrogen molecules.
 
-**Flux Monism predicts**:
+**The Plenum Ontology predicts**:
 - Muon should show "partial unwinding" in molecular environment
 - Effective mass might be intermediate between $207 m_e$ and $m_e$
 - Catalysis rate should depend on local flux density (pressure/temperature)
@@ -544,7 +544,7 @@ $$
 
 This anomaly has persisted across multiple experiments (BNL, Fermilab) and remains unexplained within the Standard Model framework.
 
-**Flux Monism Explanation:**
+**Plenum Ontology Explanation:**
 
 The muon's overwound state ($n = 14.38$) creates additional flux density around the knot, modifying the effective magnetic moment through:
 
@@ -570,7 +570,7 @@ $$
 
 **Critical Test**: Measure electron g-2 with muon-level precision (currently ~10⁻¹³ accuracy, need ~10⁻¹⁵). Should show **zero anomaly**, confirming ground state status and validating the $n^2$ scaling of quantum corrections.
 
-**If electron g-2 shows similar anomaly to muon**: Flux Monism falsified  
+**If electron g-2 shows similar anomaly to muon**: Plenum Ontology falsified  
 **If electron g-2 shows zero anomaly**: Winding state model confirmed
 
 ---
@@ -583,13 +583,13 @@ $$
 | **String Theory** | No (vacuum selection) | No | No (anthropic) | 10⁵⁰⁰ vacua |
 | **Composite Models** | No (fitted) | No | No | Multiple binding energies |
 | **Extra Dimensions** | No (fitted) | No | Maybe | Compactification scales |
-| **Flux Monism** | **Yes** (n² law) | **Yes** (derived) | **Yes** (cascade threshold) | **0** (pure geometry) |
+| **Plenum Ontology** | **Yes** (n² law) | **Yes** (derived) | **Yes** (cascade threshold) | **0** (pure geometry) |
 
-**Flux Monism is the only theory that derives lepton mass ratios from first principles.**
+**The Plenum Ontology is the only theory that derives lepton mass ratios from first principles.**
 
 ---
 
-## 13. Summary: What Flux Monism Achieves
+## 13. Summary: What the Plenum Ontology Achieves
 
 ### For Physics (Solves Long-Standing Mysteries)
 
@@ -614,7 +614,7 @@ $$
 
 ✅ **Zero free parameters**: All mass ratios emerge from $m_n = m_1 \cdot n^2$
 
-### For Flux Monism (Framework Validation)
+### For the Plenum Ontology (Framework Validation)
 
 This document validates the entire theoretical framework:
 
@@ -622,18 +622,18 @@ This document validates the entire theoretical framework:
 **If Koide formula is derived** → quantization is real ✓  
 **If predictions are confirmed** → flux medium exists ✓
 
-**This is the strongest evidence that Flux Monism is correct.**
+**This is the strongest evidence that the Plenum Ontology is correct.**
 
 ### What No Other Theory Can Do
 
-| Achievement | Standard Model | String Theory | Composite Models | Extra Dimensions | Flux Monism |
+| Achievement | Standard Model | String Theory | Composite Models | Extra Dimensions | Plenum Ontology |
 |-------------|----------------|---------------|------------------|------------------|-------------|
 | Derive m_μ/m_e | ✗ (free parameter) | ✗ (vacuum selection) | ✗ (fitted) | ✗ (fitted) | **✓ (n² law)** |
 | Explain Koide formula | ✗ | ✗ | ✗ | ✗ | **✓ (derived)** |
 | Predict 3 generations | ✗ (accident) | ✗ (anthropic) | ✗ | Maybe | **✓ (cascade threshold)** |
 | Free parameters | 2 (measured) | 10⁵⁰⁰ vacua | Multiple | Several | **0 (pure geometry)** |
 
-**Flux Monism is the only theory that derives lepton mass ratios from first principles.**
+**The Plenum Ontology is the only theory that derives lepton mass ratios from first principles.**
 
 The lepton mass hierarchy is not a collection of unrelated parameters.  
 It is the **quantized excitation spectrum of topological flux vortices**.

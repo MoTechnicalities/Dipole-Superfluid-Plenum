@@ -2,7 +2,7 @@
 
 ## 1. The Flux Medium as the Fundamental Substrate
 
-In Flux Monism, the universe’s underlying substance is a 3-dimensional, continuous electromagnetic flux field $\Phi$, whose local density determines the **proper metric** of spacetime. Matter does not *sit in* the medium—matter *is* a stable topological excitation **of** the medium.
+In the Plenum Ontology, the universe’s underlying substance is a 3-dimensional, continuous dipole superfluid plenum $\Phi$, whose local density determines the **proper metric** of spacetime. Matter does not *sit in* the medium—matter *is* a stable topological crystallization **of** the medium.
 
 We take the electromagnetic energy density:
 
@@ -154,7 +154,7 @@ $$
 Mass is not “energy added to spacetime.”  
 Mass **is the curvature of the flux medium itself**.
 
-This provides a bridge between Flux Monism and GR:  
+This provides a bridge between the Plenum Ontology and GR:  
 Einstein curvature expresses macroscopic flux-density gradients.
 
 ---

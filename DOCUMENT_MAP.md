@@ -1,4 +1,4 @@
-# Flux Monism Document Map
+# Dipole Superfluid Plenum Document Map
 ### Navigation Guide to the Complete Theory
 
 **Last updated:** January 16, 2026
@@ -44,7 +44,7 @@
 ## 🗺️ Conceptual Structure
 
 ```
-                     FLUX MONISM CORE
+                     PLENUM ONTOLOGY CORE
                            |
         ┌──────────────────┴──────────────────┐
         |                                     |
@@ -262,7 +262,7 @@ Dark energy:  δ_refraction ∝ ∫ ΔE/E dz
 
 ## 🔗 External Links
 
-- **Repository**: [github.com/MoTechnicalities/Flux-Monism](https://github.com/MoTechnicalities/Flux-Monism)
+- **Repository**: [github.com/MoTechnicalities/Dipole-Superfluid-Plenum](https://github.com/MoTechnicalities/Dipole-Superfluid-Plenum)
 - **Website**: [rofick.com/ruling_equation](https://rofick.com/ruling_equation/)
 - **Computational Tools**: [tools/python/](tools/python/), [tools/fortran/](tools/fortran/)
 

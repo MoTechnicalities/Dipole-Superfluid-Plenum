@@ -1,5 +1,5 @@
 # Quantized Winding Model of Quark Masses  
-### Flux Monism — Fermion Spectrum Part II  
+### Dipole Superfluid Plenum — Fermion Spectrum Part II  
 **Author:** Mogir Rofick  
 **Date:** 2025  
 
@@ -7,7 +7,7 @@
 
 # 1. Overview
 
-Flux Monism interprets all fermions—leptons and quarks—as *topological excitation states* of a single primordial flux tube (the T(3,4) torus-knot vacuum structure).
+The Plenum Ontology interprets all fermions—leptons and quarks—as *topological excitation states* of a single primordial plenum structure (the T(3,4) torus-knot vacuum structure).
 
 Leptons correspond to *pure winding-number excitations*:
 
@@ -186,7 +186,7 @@ The accepted value is:
 - **Current mass (2 GeV scale)**: 96 ± 4 MeV (PDG)
 - **Constituent mass (model)**: 100-150 MeV
 
-**Flux Monism gives the constituent winding energy** (134.6 MeV). The ~30% deviation from current mass reflects:
+**The Plenum Ontology gives the constituent winding energy** (134.6 MeV). The ~30% deviation from current mass reflects:
 - QCD running (mass decreases at higher energy scales)
 - Renormalization scheme dependence
 - Confinement boundary corrections
@@ -223,7 +223,7 @@ Compare:
 - Running mass at 2 GeV: ~1.1 GeV  
 - Constituent mass (model-dependent): **~500–600 MeV**
 
-Flux Monism gives the constituent mass—the natural winding energy.
+The Plenum Ontology gives the constituent mass—the natural winding energy.
 
 ---
 
@@ -276,7 +276,7 @@ $$
 n = 2^k, \qquad k = 0,1,2,3,4,5.
 $$
 
-This is visible in every QCD string model, bag model, and flux-tube simulation—Flux Monism simply formalizes it.
+This is visible in every QCD string model, bag model, and flux-tube simulation—the Plenum Ontology simply formalizes it.
 
 ---
 
@@ -289,7 +289,7 @@ Quarks are **the same lepton topology**, but:
 - with **binary twist amplification**
 - producing **fractional charges** naturally
 
-Flux Monism unifies quarks and leptons as:
+The Plenum Ontology unifies quarks and leptons as:
 
 > "Different excitation states of the same T(3,4) flux structure under different boundary constraints."
 
@@ -373,7 +373,7 @@ This completes the reconstruction of the entire Standard Model fermion sector us
 
 # 10. Conclusion
 
-Flux Monism explains:
+The Plenum Ontology explains:
 
 - why there are exactly **three** lepton generations
 - why there are exactly **six** quark flavors

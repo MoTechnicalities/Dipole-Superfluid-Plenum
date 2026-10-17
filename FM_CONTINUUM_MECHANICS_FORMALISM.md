@@ -1,6 +1,6 @@
-# Flux Monism: Continuum Mechanics Formalism
+# Dipole Superfluid Plenum: Continuum Mechanics Formalism
 
-**A Reframing of Flux-Crystal Compression Structures in an Elastic Flux Medium**
+**A Reframing of Flux-Crystal Compression Structures in an Elastic Plenum**
 
 **Date:** January 15, 2026  
 **Status:** Fundamental Insight - Mathematical Translation
@@ -9,7 +9,7 @@
 
 ## I. CORE REALIZATION
 
-The Flux Monism framework, while correct in its abstract formulation, obscures the underlying **mechanical reality**. 
+The Plenum Ontology framework, while correct in its abstract formulation, obscures the underlying **mechanical reality**. 
 
 **Key Insight:** Particles are not abstract quantum degrees of freedom. They are **flux-crystal compression structures in an elastic medium**—specifically, twisted compressions that mechanically squeeze the flux into dipole pressure zones.
 
@@ -403,7 +403,7 @@ All electromagnetic phenomena are aspects of how compression patterns in the flu
 
 ## X. MATHEMATICAL TRANSLATION
 
-The unified field equation of Flux Monism is mathematically equivalent to the equations of linear elasticity in a continuous medium with tension $\sigma$ and density $\rho_B$.
+The unified field equation of the Plenum Ontology is mathematically equivalent to the equations of linear elasticity in a continuous medium with tension $\sigma$ and density $\rho_B$.
 
 ### From Abstract QFT to Continuum Mechanics
 
@@ -492,7 +492,7 @@ What we measure as electromagnetic fields are actually stress distributions in t
 
 ---
 
-## XIII. CONNECTIONS TO OTHER FLUX MONISM RESULTS
+## XIII. CONNECTIONS TO OTHER PLENUM ONTOLOGY RESULTS
 
 ### Fine Structure Constant (α ≈ 1/137)
 
@@ -561,7 +561,7 @@ Two compression structures in overlapping stress fields are fundamentally couple
 
 ## CONCLUSION
 
-By translating Flux Monism into continuum mechanics formalism, we achieve:
+By translating the Plenum Ontology into continuum mechanics formalism, we achieve:
 
 1. **Mechanical clarity:** Abstract becomes tangible
 2. **Mathematical rigor:** Standard elasticity theory applies

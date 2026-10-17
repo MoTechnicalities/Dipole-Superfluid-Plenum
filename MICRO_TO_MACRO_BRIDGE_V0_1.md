@@ -1,6 +1,6 @@
 # Micro-to-Macro Bridge v0.1
 
-Formal map from micro topological invariants to macro effective parameters in Flux Monism.
+Formal map from micro topological invariants to macro effective parameters in the Plenum Ontology.
 
 ## 1. Purpose
 

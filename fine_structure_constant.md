@@ -1,5 +1,5 @@
 # The Fine Structure Constant from Electron Topology  
-### Flux Monism — α ≈ 1/137 Derived from First Principles  
+### Dipole Superfluid Plenum — α ≈ 1/137 Derived from First Principles  
 **Author:** Mogir Rofick  
 **Date:** December 4, 2025  
 
@@ -29,7 +29,7 @@ Famous physicists have speculated:
 
 ## 2. The Electron as T(2,1) Trefoil Knot
 
-In Flux Monism, the electron is a **T(2,1) torus knot**—a topological excitation of the flux medium with:
+In the Plenum Ontology, the electron is a **T(2,1) torus knot**—a topological crystallization of the plenum with:
 - **Toroidal winding**: p = 2 (wraps twice around major axis)
 - **Poloidal winding**: q = 1 (wraps once around minor axis)
 - **Ground state**: n = 1 (single quantum winding)
@@ -237,7 +237,7 @@ Traditional quantum field theory treats α as a **fundamental input** and calcul
 
 $$\alpha(\text{QED}) = \alpha_0 + \text{(1-loop)} + \text{(2-loop)} + \ldots$$
 
-Flux Monism **inverts this**: α emerges from topology, and QED corrections are small (~3 ppm) adjustments.
+The Plenum Ontology **inverts this**: α emerges from topology, and QED corrections are small (~3 ppm) adjustments.
 
 **This resolves Feynman's mystery**: α is not a random number—it's the electromagnetic coupling constant **encoded in the electron's knot geometry**.
 
@@ -461,7 +461,7 @@ $$\frac{\Delta \alpha}{\alpha} \sim \frac{\Delta \rho_{\text{flux}}}{\rho_{\text
 
 #### Physical Hypothesis
 
-In Flux Monism, gravity is a **flux density gradient**. If electron creation is energetically cheaper in high gravity fields (as previously postulated), then the electron's ground state T(2,1) topology is **gravitationally modified**.
+In the Plenum Ontology, gravity is a **plenum density gradient**. If electron creation is energetically cheaper in high gravity fields (as previously postulated), then the electron's ground state T(2,1) topology is **gravitationally modified**.
 
 The topological formula 2⁷ + 3² + 1/(4π√5) represents the **flat spacetime limit** (zero gravity). Real measurements are performed at Earth's surface in a gravitational potential:
 
@@ -603,7 +603,7 @@ Many attempts (Eddington, others) tried to derive 137 from **pure numerics** wit
 
 **All QED predictions use α as input.**
 
-### 13.2 Flux Monism Approach
+### 13.2 Plenum Ontology Approach
 
 **Input**: T(2,1) electron topology
 
@@ -645,7 +645,7 @@ If α comes from T(2,1), do α_W and α_S come from other topologies?
 
 If α were different, chemistry and biology would be impossible. Is 137 anthropically selected?
 
-**Flux Monism answer**: No. α = 1/137 is **topologically determined** by the T(2,1) electron structure. It's not fine-tuned—it's the **only stable value** for this topology.
+**Plenum Ontology answer**: No. α = 1/137 is **topologically determined** by the T(2,1) electron structure. It's not fine-tuned—it's the **only stable value** for this topology.
 
 ---
 
@@ -675,7 +675,7 @@ The fine structure constant α ≈ 1/137.036 is **not mysterious**—it's the el
 
 ## 16. Connection to Continuum Mechanics Formalism
 
-The topological derivation of α connects to the **elastic medium picture** of Flux Monism:
+The topological derivation of α connects to the **elastic medium picture** of the Plenum Ontology:
 
 **Elastic modulus**: E ~ 10³⁵ Pa (derived from electron mass and Compton wavelength) creates the stress modes that generate the 2⁷ EM phase space dimensions.
 

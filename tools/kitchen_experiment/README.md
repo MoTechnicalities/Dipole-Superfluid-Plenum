@@ -2,7 +2,7 @@
 
 **Prove magnetic flux has measurable substance in 30 minutes with $50 of equipment.**
 
-This experiment demonstrates that magnetic flux is not an abstract mathematical field, but a real physical medium with measurable energy density, mass-equivalent, and mechanical pressure—exactly as Flux Monism predicts.
+This experiment demonstrates that magnetic flux is not an abstract mathematical field, but a measurable property of a real physical medium (the dipole superfluid plenum) with measurable energy density, mass-equivalent, and mechanical pressure—exactly as the Plenum Ontology predicts.
 
 ---
 
@@ -29,7 +29,7 @@ If flux is real substance, then integrating this energy density over a volume sh
 
 **Prediction**: If flux is real, these two measurements must match within experimental error (~5%).
 
-**Falsification**: If they differ by more than 10%, Flux Monism is wrong.
+**Falsification**: If they differ by more than 10%, the Plenum Ontology is wrong.
 
 ---
 
@@ -129,7 +129,7 @@ x_mm,y_mm,z_mm,Bx_T,By_T,Bz_T
 
 This simple experiment **reframes 150 years of magnetic measurements**:
 
-### For Flux Monism (✓)
+### For the Plenum Ontology (✓)
 - Every magnetometer reading ever taken is evidence that flux has measurable depth
 - B² energy density is literally compressed flux medium (like ρgh for water)
 - Mechanical work = stored flux energy proves flux is real substance
@@ -157,13 +157,13 @@ Once you see magnetic field strength B as **flux depth**, and B²/2μ₀ as **co
 ## 🔍 Common Questions
 
 **Q: Isn't this just verifying standard EM energy density?**  
-A: Yes—but we're reinterpreting *what that energy is*. Standard physics says "field energy is stored in abstract field configuration." Flux Monism says "that energy is compressed flux medium." The experiment proves the energy is *real* (does mechanical work), supporting the substance interpretation.
+A: Yes—but we're reinterpreting *what that energy is*. Standard physics says "field energy is stored in abstract field configuration." The Plenum Ontology says "that energy is compressed dipole superfluid plenum." The experiment proves the energy is *real* (does mechanical work), supporting the substance interpretation.
 
 **Q: Why hasn't this been done before?**  
 A: It has! Every motor, generator, and solenoid engineer knows magnetic field energy does mechanical work. But they treat it as "field energy" (abstract) rather than "medium compression" (substance). We're exposing the semantic sleight-of-hand.
 
 **Q: What if the numbers don't match?**  
-A: Then Flux Monism is falsified. That's what makes this devastating—it's trivially testable. If B² integration ≠ mechanical work, the whole theory collapses.
+A: Then the Plenum Ontology is falsified. That's what makes this devastating—it's trivially testable. If B² integration ≠ mechanical work, the whole theory collapses.
 
 **Q: Can I do this with permanent magnets only?**  
 A: Yes! Permanent magnets are ideal because they maintain stable fields. Electromagnets add complexity without benefit for this test.
@@ -182,7 +182,7 @@ A: ±5-10% agreement is excellent given measurement uncertainties. Modern smartp
 - Practice experimental design and error analysis
 
 ### For Researchers
-- Accessible entry point to Flux Monism concepts
+- Accessible entry point to Plenum Ontology concepts
 - Demonstrates falsifiability of topological field theories
 - Provides analogy framework for teaching (ocean metaphor)
 - Bridges classical EM and unified field proposals
@@ -218,10 +218,10 @@ $$
 u_B = \frac{1}{2\mu_0} \vec{B} \cdot \vec{B} = \frac{B^2}{2\mu_0}
 $$
 
-In Flux Monism interpretation:
-- **B** = flux density (analogous to water depth)
+In the Plenum Ontology interpretation:
+- **B** = measurable property of local plenum density and orientation (analogous to water depth)
 - **B²/2μ₀** = compression energy per unit volume
-- **σ** = universal flux tension (3.518 × 10⁴³ N)
+- **σ** = universal plenum tension (0.0212 N)
 
 ### Scale Hierarchy
 At laboratory scales (cm-m), the effective magnetic parameters are:
@@ -237,7 +237,7 @@ See Section 2 of main theory document for ocean analogy explaining scale transit
 - **Main Theory**: [one_equation_final.pdf](../../one_equation_final.pdf)
 - **Section 16.1**: Kitchen Table Experiment (detailed theory)
 - **3D Visualizer**: [../python/](../python/) (topology tools)
-- **GitHub Repo**: [MoTechnicalities/Flux-Monism](https://github.com/MoTechnicalities/Flux-Monism)
+- **GitHub Repo**: [MoTechnicalities/Dipole-Superfluid-Plenum](https://github.com/MoTechnicalities/Dipole-Superfluid-Plenum)
 - **Author Site**: [rofick.com/ruling_equation](https://rofick.com/ruling_equation/)
 
 ---
@@ -264,8 +264,8 @@ If you use this experiment in research or education:
   author = {Rofick, Mogir Jason},
   title = {Kitchen Table Experiment: Weighing the Magnetic Ocean},
   year = {2025},
-  url = {https://github.com/MoTechnicalities/Flux-Monism/tree/main/tools/kitchen_experiment},
-  note = {Supplementary material for Flux Monism unified field theory}
+  url = {https://github.com/MoTechnicalities/Dipole-Superfluid-Plenum/tree/main/tools/kitchen_experiment},
+  note = {Supplementary material for Dipole Superfluid Plenum unified field theory}
 }
 ```
 

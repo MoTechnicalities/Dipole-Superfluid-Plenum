@@ -1,5 +1,5 @@
 # Strong Force Coupling Constant α_s from Flux Topology  
-### Flux Monism — Deriving QCD Running from Binary Winding  
+### Dipole Superfluid Plenum — Deriving QCD Running from Binary Winding  
 **Author:** Mogir Rofick  
 **Date:** December 4, 2025  
 
@@ -465,7 +465,7 @@ $$V(r) = \sigma r$$
 
 where σ is the string tension ≈ 1 GeV/fm.
 
-**In Flux Monism**:
+**In the Plenum Ontology**:
 
 $$\sigma_{\text{QCD}} = \sigma_{\text{flux}} \times K^2$$
 
@@ -514,7 +514,7 @@ The **11N_c** term comes from gluon loops.
 
 ### 11.2 Topological Gluon Contribution
 
-In Flux Monism, gluons are **closed flux loops** mediating between quarks.
+In the Plenum Ontology, gluons are **closed plenum loops** mediating between quarks.
 
 **Hypothesis**: Gluon self-interactions add a correction:
 
@@ -595,7 +595,7 @@ This was shocking—most field theories have **increasing** coupling (like QED).
 
 **Nobel Prize 2004**: "For the discovery of asymptotic freedom in the theory of the strong interaction"
 
-### 13.2 Flux Monism Perspective
+### 13.2 Plenum Ontology Perspective
 
 Asymptotic freedom is **obvious** from topology:
 
@@ -641,7 +641,7 @@ At extreme temperatures (T > 1 trillion K), quarks and gluons become **deconfine
 
 **Phase transition**: Confined hadrons → quark-gluon plasma
 
-**In Flux Monism**: High temperature → thermal flux fluctuations → knots dissolve → K(T) → 0 → α_s → ∞
+**In the Plenum Ontology**: High temperature → thermal plenum fluctuations → knots dissolve → K(T) → 0 → α_s → ∞
 
 Wait, that's backwards...
 

@@ -1,5 +1,5 @@
 # Neutrino Masses from Fractional Winding  
-### Flux Monism — Fermion Spectrum Part III  
+### Dipole Superfluid Plenum — Fermion Spectrum Part III  
 **Author:** Mogir Rofick  
 **Date:** 2025  
 
@@ -18,7 +18,7 @@ where:
 
 But what about **neutrinos**—the ghost-like partners of charged leptons?
 
-Neutrino oscillation experiments reveal they have tiny but non-zero masses (~0.1 eV), roughly **six million times lighter** than the electron. In Flux Monism, this extreme mass hierarchy suggests a radical possibility:
+Neutrino oscillation experiments reveal they have tiny but non-zero masses (~0.1 eV), roughly **six million times lighter** than the electron. In the Plenum Ontology, this extreme mass hierarchy suggests a radical possibility:
 
 **Neutrinos are fractional winding states with n << 1.**
 
@@ -203,7 +203,7 @@ Just as the fourth charged lepton generation is topologically forbidden (cascade
 
 ### 7.1 Charge from Winding Closure
 
-In Flux Monism, electric charge arises from **topological winding closure**:
+In the Plenum Ontology, electric charge arises from **topological winding closure**:
 
 $$Q \propto \frac{\text{flux circulation}}{\text{closure radius}}$$
 

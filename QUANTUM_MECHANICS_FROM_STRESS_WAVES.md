@@ -1,5 +1,5 @@
 # Quantum Mechanics from Stress Waves in the Elastic Flux Medium
-### Flux Monism — Deriving the Schrödinger Equation from Continuum Mechanics
+### Dipole Superfluid Plenum — Deriving the Schrödinger Equation from Continuum Mechanics
 **Author:** Mogir Rofick  
 **Date:** January 16, 2026
 
@@ -680,7 +680,7 @@ This integral diverges! Need cutoff at λ_min ~ 10⁻¹⁸ m (Planck scale).
 
 ---
 
-## 17. Connection to Other Flux Monism Results
+## 17. Connection to Other Plenum Ontology Results
 
 ### 17.1 Particle Masses from Stress Energy
 

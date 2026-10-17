@@ -1,4 +1,4 @@
-# Flux Monism — One Equation to Rule Them All
+# Dipole Superfluid Plenum — One Equation to Rule Them All
 
 **Date of discovery:** 21 November 2025  
 **Public release:** 01 December 2025  
@@ -15,22 +15,22 @@
 
 ## 🌌 The Theory
 
-The universe is **one magnetic flux medium**. Everything emerges from flux geometry:
+The universe is not made of particles in curved spacetime. It is filled with a single physical substance: the **dipole superfluid plenum**—a full medium with intrinsic orientation, zero viscosity below a critical stress threshold, and the capacity to be shaped, stressed, and crystallized. All physical phenomena—mass, gravity, charge, spin, nuclear forces, and cosmology—emerge from one mechanical principle: **the topological state of the plenum**:
 
-- **Particles** = Stable flux-crystal compression states (topological class labels are retained for indexing)
-- **Mass** = Path length through flux × universal tension
-- **Charge** = Compression handedness (left/right)  
-- **Spin** = Winding parity (odd = ½, even = 3/2)
-- **Gravity** = Flux delay gradients
-- **Dark matter** = Galactic vortex eddies in flux medium
-- **Dark energy** = Cosmological mirage from flux density refraction
+- **Particles** = Crystallizations of the plenum (topologically arranged, densified, twisted configurations)
+- **Mass** = Compression-locked plenum ($m = \sigma \cdot \Delta t / c$, causal delay $\Delta t$ × universal plenum tension $\sigma$)
+- **Light** = Propagating phase-lag pattern of electron motion against the plenum's inertia
+- **Charge** = Chiral configuration (interlocking handedness of a plenum crystallization)  
+- **Spin** = Winding parity (odd = ½, even = 3/2) and wavefront torque
+- **Gravity** = Plenum self-interaction through density/informational gradients ($\vec{g} = -c\vec{\nabla}(\Delta t)$)
+- **Dark matter & Dark energy** = Differing plenum-density states (high-density non-luminous plenum regions and cosmic decompression pressure / refraction)
 
 ### Terminology Note (Ontology Alignment)
 
-This repository now uses **flux-crystal/compression language** as primary ontology wording.
+This repository uses the **Dipole Superfluid Plenum** and **crystallization/compression** language as primary ontology wording.
 
 - Legacy terms such as "knot" or "torus-knot T(p,q)" remain as mathematical indexing labels.
-- Physical interpretation is compression-based continuum mechanics in the flux medium.
+- Physical interpretation is compression-based continuum mechanics in the dipole superfluid plenum.
 
 ### Confidence Legend (Reviewer Clarity)
 
@@ -48,7 +48,7 @@ $$
 }
 $$
 
-Where **σ = 0.0212 N** (universal flux tension, approximately 2 grams-force) is the only free parameter.
+Where **σ = 0.0212 N** (universal plenum tension, approximately 2 grams-force) is the only free parameter.
 
 **Scope:** Provides exact predictions for **elementary particle masses** (electron, proton, neutron) at Compton wavelength scales (10⁻¹² to 10⁻⁸ m) with 6-7 significant figure accuracy. Compression-topology framework extends to nuclear forces and qualitative cosmological insights. Macroscopic bulk matter is treated conventionally (sum of constituent particles).
 
@@ -108,14 +108,14 @@ $$\Delta x \cdot \Delta p \geq \frac{\hbar}{2}$$
 ---
 ### � JANUARY 2026 BREAKTHROUGH: Continuum Mechanics Formalism
 
-**Conceptual revolution**: Flux Monism translated from abstract field theory into **classical continuum mechanics**—particles are now understood as **twisted compressions in an elastic medium** with derivable properties.
+**Conceptual revolution**: The Plenum Ontology translated from abstract field theory into **classical continuum mechanics**—particles are now understood as **twisted compressions (crystallizations) in a dipole superfluid plenum** with derivable properties.
 
 #### Elastic Modulus Derived (Not Fitted!)
 
 $$E \approx 2.9 \times 10^{35} \text{ Pa}$$
 
 **Derived from**: Electron mass (0.511 MeV) and Compton wavelength (386 fm)  
-**Physical meaning**: Flux medium is 10²⁴ times stiffer than diamond  
+**Physical meaning**: The plenum is 10²⁴ times stiffer than diamond  
 **Explains**: Why particles are stable at quantum scales
 
 #### Forces Emerge from Stress Gradients
@@ -406,8 +406,8 @@ The tools are **educational and exploratory**:
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/MoTechnicalities/Flux-Monism.git
-cd Flux-Monism
+git clone https://github.com/MoTechnicalities/Dipole-Superfluid-Plenum.git
+cd Dipole-Superfluid-Plenum
 ```
 
 **2. Choose your tool:**
@@ -439,7 +439,7 @@ firefox tools/examples/previews/electron_T2_1.html
 ## 📚 Documentation Structure
 
 ```
-Flux-Monism/
+Dipole-Superfluid-Plenum/
 ├── One_Equation_to_Rule_Them_All.pdf  # Complete theory paper (updated Dec 2025)
 ├── appendix/                          # Diagrams and supplementary material
 └── tools/                             # Computational tools
@@ -454,13 +454,13 @@ Flux-Monism/
 
 ### Mass from Topology
 
-Elementary particles acquire mass from their path length through the flux medium:
+Elementary particles acquire mass from their causal delay path length through the plenum:
 
 $$m = \frac{\sigma L_P}{c^2}$$
 
 Where:
-- σ = 0.0212 N (universal flux tension, approximately 2 grams-force)
-- L_P = path length of torus knot T(p,q) at Compton wavelength scale
+- σ = 0.0212 N (universal plenum tension, approximately 2 grams-force)
+- L_P = path length of crystallization topology T(p,q) at Compton wavelength scale
 - c = speed of light
 
 **Scope:** This formula applies to elementary particles (electron, proton, neutron) at quantum scales (10⁻¹² to 10⁻⁸ m). Macroscopic objects are treated as sums of constituent particle masses.
@@ -558,12 +558,12 @@ Electric charge determined by knot chirality:
 If you use this work in research or education:
 
 ```bibtex
-@misc{rofick2025fluxmonism,
+@misc{rofick2025plenum,
   author = {Rofick, Mogir Jason},
-  title = {One Equation to Rule Them All: A Unified Field Theory from Magnetic Flux Monism},
+  title = {One Equation to Rule Them All: A Complete Mechanical Theory of the Universe via the Dipole Superfluid Plenum},
   year = {2025},
   month = {November},
-  url = {https://github.com/MoTechnicalities/Flux-Monism},
+  url = {https://github.com/MoTechnicalities/Dipole-Superfluid-Plenum},
   note = {Theory paper and computational tools}
 }
 ```
@@ -593,12 +593,12 @@ This theory represents a fundamental reimagining of physics from first principle
 
 ## 🔮 What This Means
 
-If Flux Monism is correct, we live in a universe that is:
+If the Plenum Ontology is correct, we live in a universe that is:
 
 - **Purely geometric** - No quantum foam, no strings, just topology
-- **Mechanically determined** - Particles follow flux flow like knots in water
+- **Mechanically determined** - Particles follow plenum flow like crystallizations in a superfluid
 - **Elegantly simple** - One equation, one constant, all phenomena
-- **Visually understandable** - You can literally see particles as 3D knots
+- **Visually understandable** - You can literally see particles as 3D topological structures
 
 The tools in this repository let you explore this possibility yourself.
 
@@ -608,10 +608,10 @@ The tools in this repository let you explore this possibility yourself.
 
 - **Author**: Mogir Jason Rofick
 - **Website**: [rofick.com](https://rofick.com)
-- **Repository**: [github.com/MoTechnicalities/Flux-Monism](https://github.com/MoTechnicalities/Flux-Monism)
+- **Repository**: [github.com/MoTechnicalities/Dipole-Superfluid-Plenum](https://github.com/MoTechnicalities/Dipole-Superfluid-Plenum)
 
 ---
 
 **Explore the topology. Visualize the theory. Question everything.**
 
-🌀 *"In the beginning, there was flux..."* 🌀
+🌀 *"In the beginning, there was the plenum..."* 🌀
