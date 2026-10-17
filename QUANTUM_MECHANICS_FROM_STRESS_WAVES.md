@@ -313,6 +313,14 @@ You cannot send information because:
 
 **Entanglement is correlation, not communication.**
 
+### 8.5 Bell's Theorem and Topological Phase Holonomy
+
+A natural question for any continuum model of quantum mechanics is how it accounts for **Bell-inequality violations** ($S = 2\sqrt{2} > 2$ in CHSH tests). Bell's theorem rules out *factorizable local hidden-variable* models where the joint probability separates as $P(A,B|a,b,\lambda) = P(A|a,\lambda)P(B|b,\lambda)$.
+
+In the **dipole superfluid plenum**, an entangled pair produced from a single parent crystallization shares a **non-factorizable topological linking invariant** ($\text{Lk} \neq 0$) and a continuous superfluid dipole phase contour $\oint \vec{\nabla}\theta \cdot d\vec{\ell} = 2\pi n$:
+1. **Non-Separable Global Invariant:** Topological linking is a global property of the shared plenum contour—it cannot be decomposed into independent local variables $\lambda_A$ and $\lambda_B$ assigned separately to each end.
+2. **Superfluid Phase Holonomy:** Because the plenum has zero viscosity below its critical stress threshold, the relative dipole orientation angle $(\theta_A - \theta_B)$ is rigidly maintained along the shared phase contour, producing the Malus/quantum spin correlation $E(a,b) = -\cos(\theta_a - \theta_b)$ without transmitting superluminal signals.
+
 ---
 
 ## 9. Superposition as Linear Stress Addition

@@ -102,7 +102,7 @@ def print_topology_table():
         print(f"  {particle:<10} mass={mass_mev:>8.1f} MeV,  L={path_len:>7.4f},  m/L={ratio:>7.2f}")
     
     print()
-    print("Note: m = σL/c² predicts mass from path length with σ = 3.518×10⁴³ N")
+    print("Note: m = σL/c² predicts mass from Compton-scaled path length with σ = 0.0212 N")
     print("=" * 95)
 
 

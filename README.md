@@ -25,12 +25,14 @@ The universe is not made of particles in curved spacetime. It is filled with a s
 - **Gravity** = Plenum self-interaction through density/informational gradients ($\vec{g} = -c\vec{\nabla}(\Delta t)$)
 - **Dark matter & Dark energy** = Differing plenum-density states (high-density non-luminous plenum regions and cosmic decompression pressure / refraction)
 
-### Terminology Note (Ontology Alignment)
+### Terminology & Topology Indexing Note (Ontology Alignment)
 
 This repository uses the **Dipole Superfluid Plenum** and **crystallization/compression** language as primary ontology wording.
 
-- Legacy terms such as "knot" or "torus-knot T(p,q)" remain as mathematical indexing labels.
-- Physical interpretation is compression-based continuum mechanics in the dipole superfluid plenum.
+- **Two Complementary Topology Indexing Conventions:**
+  1. **Core Loop Winding Index $T(p,q)$** (used in this `README.md`, `fine_structure_constant.md`, and the 3D visualizers): indexes the primary toroidal/poloidal circulation of the crystallization core—e.g., Electron = $T(2,1)$ (minimal chiral Möbius/trefoil loop), Proton = $T(3,2)$, Neutron = $T(3,4)$.
+  2. **Embedded Manifold / Crossing Index** (used in `One_Equation(1).md` and `One_Equation(2).md`): indexes the crystallization's full 4-D causal-flow trajectory embedded within the local vacuum cell—e.g., $T_{(3,4)}$ for the electron's 10-wavelength embedded causal path ($L_{\mathcal{P}}^{(e)} = 10\bar{\lambda}_e$), $3_1$ trefoil for the triune proton configuration, and $4_1$ closed cinch (figure-8) for the amphichiral zero-net-chirality neutron.
+- **Anchor vs. Holdout Distinction:** The universal plenum tension $\sigma = 0.0212013707\text{ N}$ is **`[Calibrated]`** on the electron anchor set ($m_e, \hbar, c$, and $L_{\mathcal{P}}^{(e)} = 10\bar{\lambda}_e$) and held fixed without re-fitting across all subsequent derivations and predictions (see `MICRO_TO_MACRO_BRIDGE_V0_1.md`). Likewise, in the lepton winding hierarchy $m_n = m_e n_{\text{eff}}^2$, the quadratic scaling law, Koide identity ($Q = 2/3$), and 3-generation cascade cutoff are **`[Derived]`**, while the non-integer effective winding shifts ($n_\mu \approx 14.38, n_\tau \approx 58.97$ from relativistic core compression and aspect-ratio impedance) are **`[Calibrated]` / `[Modeled]`**.
 
 ### Confidence Legend (Reviewer Clarity)
 

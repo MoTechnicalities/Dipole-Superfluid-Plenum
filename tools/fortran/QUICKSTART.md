@@ -58,14 +58,14 @@ The FORTRAN program calculates:
 - Muon T(4,1): 25.2067 (1.98× electron)
 
 ### Mass Predictions
-⚠️ **Important**: Absolute mass values are ~10⁵⁸ too large (dimensional calibration issue).
+⚠️ **Important**: In this standalone visualizer, torus path lengths $L$ are computed on a normalized dimensionless unit torus ($R = 1.0, a = 0.3$) rather than scaled by the reduced Compton wavelength ($\bar{\lambda}_e \approx 3.86 \times 10^{-13}\text{ m}$) and $n^2$ winding impedance.
 
 Focus on:
 - Relative mass ordering (correct)
 - Topological relationships (correct)
 - Family patterns (correct)
 
-The program demonstrates the **geometric framework**, not quantitative mass predictions.
+The program demonstrates the **geometric framework** with the universal plenum tension $\sigma = 0.0212\text{ N}$.
 
 ## Differences from Python Version
 

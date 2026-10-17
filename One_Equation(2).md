@@ -9,7 +9,7 @@
 
 **Document split:** This is Part 2 of 2. For foundations and sections 1-11, start with [One Equation to Rule Them All - Part 1](One_Equation(1).md).
 
-**Terminology note:** This manuscript uses the Dipole Superfluid Plenum and crystallization/compression ontology. Legacy topology labels (for example, trefoil or torus-class T(p,q)) are retained as compact indexing notation.
+**Terminology & Topology Indexing Note:** This manuscript uses the **Dipole Superfluid Plenum** and **crystallization/compression** ontology. Two complementary topological indexing conventions appear across the repository: (1) the **Core Loop Winding Index $T(p,q)$** ($T(2,1)$ electron, $T(3,2)$ proton, $T(3,4)$ neutron) indexing primary core circulation in `README.md` and the 3D visualizers, and (2) the **Embedded Manifold / Crossing Index** ($T_{(3,4)}$ 10-wavelength embedded electron path, $3_1$ trefoil proton, $4_1$ closed-cinch figure-8 neutron) indexing the 4-D causal trajectory in this manuscript.
 
 
 ---
@@ -1213,35 +1213,33 @@ The coming experiments will write the final chapter. Either the universe is made
 This appendix provides the complete mathematical details underlying key results in the Plenum Ontology.
 
 
-#### A.1 Derivation of the Universal Flux Tension $\sigma$
+#### A.1 Anchor Calibration of the Universal Plenum Tension $\sigma$ (`[Calibrated]` — Anchor Set $A$)
 
-**Given:**
+**Given (Anchor Set $A$ Inputs):**
 
 
 - Electron mass: $m_e = 9.1093837015 \times 10^{-31}  \text{kg}$
-- Electron topology: $T_{(3,4)}$ torus-labeled compression structure
+- Electron embedded manifold topology: $T_{(3,4)}$ torus-labeled compression structure (core loop class $T(2,1)$)
 - Path length: $L_{\mathcal{P}}^{(e)} = 10 \times \bar{\lambda}_e$
 - Reduced Compton wavelength: $\bar{\lambda}_e = \frac{\hbar}{m_e c} = 3.8615926796 \times 10^{-13}  \text{m}$
 
-**Calculation:**
+**Anchor Calibration Calculation:**
 
 $$
 L_{\mathcal{P}}^{(e)} = 10 \times 3.8615926796 \times 10^{-13} = 3.8615926796 \times 10^{-12}  \text{m}
 $$
 
-From mass formula:
+From the mass-delay identity $m_e = \frac{\sigma L_{\mathcal{P}}^{(e)}}{c^2}$, we calibrate the universal plenum tension $\sigma$:
 
 $$
-m_e = \frac{\sigma L_{\mathcal{P}}^{(e)}}{c^2}
-$$
-
-$$
-\sigma = \frac{m_e c^2}{L_{\mathcal{P}}^{(e)}} = \frac{(9.1093837015 \times 10^{-31})(2.99792458 \times 10^8)^2}{3.8615926796 \times 10^{-12}}
+\sigma = \frac{m_e c^2}{L_{\mathcal{P}}^{(e)}} = \frac{m_e^2 c^3}{10\hbar} = \frac{(9.1093837015 \times 10^{-31})(2.99792458 \times 10^8)^2}{3.8615926796 \times 10^{-12}}
 $$
 
 $$
-\boxed{\sigma = 0.0212  \text{ N}}
+\boxed{\sigma = 0.0212013707  \text{ N}}
 $$
+
+*(Note: Under the Micro-to-Macro Bridge protocol, $\sigma$ is fixed once from the electron anchor set $A$ and held constant without re-fitting across all subsequent derivations and predictions.)*
 
 
 #### A.2 Complete Orbital Precession Derivation

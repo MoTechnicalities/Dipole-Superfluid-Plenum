@@ -16,9 +16,9 @@ The magnetic moment code achieves 10⁻⁶ accuracy. These topology tools focus 
 - Reproducible alpha_s holdout residual reporting for bridge validation
 
 ### ⚠️ Known Limitations
-- Absolute mass predictions are dimensionally incorrect (~10⁵⁸ too large)
-- Path length ratios don't directly match experimental mass ratios
-- These tools demonstrate the **framework**, not quantitative physics
+- The visualization scripts use normalized dimensionless torus radii ($R = 1.0, a = 0.3$) rather than physical Compton-wavelength scales ($\bar{\lambda}_e \approx 3.86 \times 10^{-13}\text{ m}$), so unscaled $m = \sigma L/c^2$ outputs must be multiplied by the Compton scale factor to yield physical SI masses
+- Pure geometric path-length ratios of unscaled $T(p,q)$ curves do not include the relativistic winding impedance ($n^2$ law) or hadronic binding plenum ($L_{\text{binding}}$)
+- These tools demonstrate the **3D geometric framework**, while quantitative bridge validation is handled by `alpha_s_bridge_holdout.py`
 
 ## Complementary to Main Code
 

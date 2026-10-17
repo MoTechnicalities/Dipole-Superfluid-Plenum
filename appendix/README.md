@@ -11,4 +11,4 @@ Full XYZ coords from flux_monism.f90 (output to .ply for Blender/ParaView).
 
 [Placeholder: knot_diagram_trefoil.svg] (upload your own SVG/PDF here).
 
-Derivations: See one_equation_final.pdf for original derivations. Corrected σ = 0.0212 N provides exact elementary particle mass predictions.
+Derivations: See `One_Equation(1).md` and `One_Equation(2).md` for full derivations under the Dipole Superfluid Plenum ontology. Universal plenum tension $\sigma = 0.0212\text{ N}$ (calibrated on the electron Compton scale) provides exact elementary particle mass baselines.

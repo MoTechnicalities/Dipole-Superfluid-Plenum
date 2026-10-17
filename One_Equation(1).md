@@ -7,7 +7,9 @@
 **Affiliation:** Independent Researcher
 **Date:** November 21, 2025
 
-**Terminology note:** This manuscript uses the Dipole Superfluid Plenum and crystallization/compression ontology. Legacy topology labels (for example, trefoil or torus-class T(p,q)) are retained as compact indexing notation.
+**Terminology & Topology Indexing Note:** This manuscript uses the **Dipole Superfluid Plenum** and **crystallization/compression** ontology. Two complementary topological indexing conventions appear across the repository and are reconciled as follows:
+1. **Core Loop Winding Index $T(p,q)$** (used in `README.md`, `fine_structure_constant.md`, and the 3D visualizers): indexes the primary toroidal/poloidal circulation of the crystallization core—Electron = $T(2,1)$ (minimal chiral Möbius/trefoil loop), Proton = $T(3,2)$, Neutron = $T(3,4)$.
+2. **Embedded Manifold / Crossing Index** (used in this manuscript): indexes the crystallization's full 4-D causal-flow trajectory embedded within the local vacuum cell—$T_{(3,4)}$ for the electron's 10-wavelength embedded causal path ($L_{\mathcal{P}}^{(e)} = 10\bar{\lambda}_e$), $3_1$ trefoil for the triune proton configuration, and $4_1$ closed cinch (figure-8) for the amphichiral zero-net-chirality neutron.
 
 
 ---
@@ -855,22 +857,22 @@ $$
 \sigma = \frac{2.2358374 \times 10^{-35}}{10 \times 1.054571817 \times 10^{-34}} = 2.120137 \times 10^{-2} \text{ N}
 $$
 
-**Final Result:**
+**Final Result ([Calibrated] Anchor Definition — Anchor Set $A$):**
 
 $$
 \boxed{\sigma = 0.0212013707 \text{ N}}
 $$
 
-**Verification:**
+**Anchor Self-Consistency vs. Independent Holdout Validation:**
 
 
-Let's verify this makes sense. Using $m = \frac{\sigma L_{\mathcal{P}}}{c^2}$ with our electron path length:
+Substituting $\sigma = \frac{m_e^2 c^3}{10\hbar}$ back into $m_e = \frac{\sigma L_{\mathcal{P}}^{(e)}}{c^2}$ with $L_{\mathcal{P}}^{(e)} = 10\bar{\lambda}_e$ confirms the algebraic self-consistency of our anchor definition:
 
 $$
 m_e = \frac{(0.0212013707) \times (3.86159268 \times 10^{-12})}{(299792458)^2} = 9.1093837015 \times 10^{-31} \text{ kg}
 $$
 
-This matches the measured electron mass to the last digit.
+**Methodological Note (No Circularity):** Because $m_e$, $\hbar$, $c$, and the geometric path factor $10$ are used to *define* the anchor value of $\sigma$ (Anchor Set $A$ in the Micro-to-Macro Bridge protocol), recovering $m_e$ above is an internal calibration identity, **not** an independent prediction. The **genuine empirical test** of $\sigma = 0.0212013707\text{ N}$ is holding this single calibrated constant strictly fixed (zero re-fitting) to evaluate independent observables in the Derivation ($D$) and Prediction ($P$) sets—including hadron masses via $L_{\mathcal{P}} + L_{\text{binding}}$, the gravitational constant $G$, orbital precession, and the kitchen-table magnetomechanical energy balance.
 
 
 **Profound Implications:**
@@ -1130,7 +1132,17 @@ where $\rho_B$ is the local density of the plenum, not a separate "flux" field. 
 This conformal scaling establishes that any local increase in $\rho_B$ (e.g., near a mass-crystallization concentration) compresses the metric coefficients. This shift represents the mechanical **warping of the plenum** that we perceive as curved spacetime. The greater the density, the more 'compact' the metric becomes. This is the fundamental reason for **causality rate change**: higher $\rho_B$ yields slower local propagation $c(r) = \sqrt{\sigma/\rho_B(r)}$, directly producing time dilation and gravitational redshift.
 
 
-**Validity:** This conformal approximation holds for $\Phi \approx 0$ (negligible compression structure topology), slowly varying $\rho_B$, and near-isotropy.
+**Validity:** This isotropic scalar conformal approximation holds for $\Phi \approx 0$ (negligible compression structure topology), static or slowly varying $\rho_B$, and vanishing shear anisotropy.
+
+##### 7.1.1 Full Tensor Metric Extension (Post-Newtonian $\gamma_{\text{PPN}} = 1$ & Lensing Completeness)
+
+A purely scalar conformal metric $g_{\mu\nu} = (\rho_0/\rho_B)\eta_{\mu\nu}$ has only 1 degree of freedom and, taken alone, would account only for temporal refraction ($g_{00}$), yielding half the General Relativistic light deflection. However, the **dipole superfluid plenum** is an oriented, flowing, elastic continuum with 4-velocity $u^\mu$ and an anisotropic Cauchy stress/strain tensor $\chi_{\mu\nu}^{\text{stress}}$. In the full acoustic/optical Gordon-type metric of the plenum, perturbations propagate on the 10-component effective tensor metric:
+
+$$
+g_{\mu\nu}^{\text{eff}} = \frac{\rho_0}{\rho_B}\left[\eta_{\mu\nu} + \left(1 - \frac{c_{\text{local}}^2}{c_0^2}\right) u_\mu u_\nu + \chi_{\mu\nu}^{\text{stress}}\right]
+$$
+
+Around a massive crystallization $M$, radial tension in the plenum produces both temporal causal delay ($g_{00} \approx -(1 - 2GM/c^2r)$) and radial spatial compression ($g_{rr} \approx 1 + 2GM/c^2r$), giving $\gamma_{\text{PPN}} = 1$. Photons and relativistic test particles respond to both the temporal delay gradient and the spatial tension strain, recovering the exact General Relativistic factor of 2 in gravitational lensing ($1.75''$ at the solar limb) as well as gravitomagnetic frame-dragging from rotational plenum flow ($\vec{\nabla} \times \vec{u}$).
 
 
 #### 7.2 From Flux Dynamics to Einstein's Equations
@@ -1616,15 +1628,17 @@ $$
 
 This is not fitted. It is **inevitable** from rotational energy physics.
 
-**Solving for the spectrum:**
+**Solving for the spectrum (`[Derived]` Scaling Law + `[Calibrated]` Effective Winding Shifts):**
 
-Electron (ground state): $n = 1 \rightarrow m_e = 0.511$ MeV
+Electron (ground state): $n_1 = 1 \rightarrow m_e = 0.511$ MeV
 
 Muon: $m_\mu/m_e = 206.768 = n_\mu^2 \rightarrow n_\mu = 14.38$
 
 Tau: $m_\tau/m_e = 3477.15 = n_\tau^2 \rightarrow n_\tau = 58.97$
 
-**No free parameters. Pure geometry + quantization.**
+**Epistemic Status Breakdown:**
+- **`[Derived]`:** The quadratic scaling law $m_n = m_e n_{\text{eff}}^2$ (from rotational vortex energy $E \propto \oint (\nabla\phi)^2 dV \propto n^2$), the harmonic Koide identity $Q = \frac{1 + n_\mu^2 + n_\tau^2}{(1 + n_\mu + n_\tau)^2} = \frac{2}{3}$, and the 3-generation stability cutoff at the weak/hadronic cascade threshold ($\sim 28.5\text{ GeV}$).
+- **`[Calibrated]` / `[Modeled]`:** The non-integer effective winding numbers $n_\mu \approx 14.38$ and $n_\tau \approx 58.97$ reflect relativistic core compression and aspect-ratio impedance shifts relative to integer harmonic modes (see `lepton_excitations.md` for the decomposition into integer base winding plus geometric impedance). Deriving $n_\mu$ and $n_\tau$ purely from closed-form nonlinear eigenvalue equations without mass-ratio anchoring is an active theoretical target under the Micro-to-Macro Bridge protocol.
 
 #### The Koide Formula: 44 Years Explained
 
@@ -1937,15 +1951,15 @@ $$
 **This is the wave equation predicting electromagnetic waves traveling at speed $c$.**
 
 
-**Physical Interpretation**
+**Physical Interpretation: Why Light Is Purely Transverse**
 
 
-In the Plenum Ontology, electromagnetic waves are not oscillations of abstract fields—they are **density waves** in the dipole superfluid plenum:
+In the Plenum Ontology, electromagnetic waves are not oscillations of abstract fields in a void—they are **propagating rotational phase-lag patterns** in the dipole superfluid plenum:
 
 
-- **Transverse Waves:** The $F^{\mu\nu}$ tensor describes shearing motions in the flux
-- **Speed $c$:** The intrinsic wave speed of the medium
-- **Energy Transport:** Waves carry energy by locally compressing and rarefying $\rho_B$
+- **Purely Transverse Polarization (No Longitudinal Mode in Vacuum):** Because the plenum has **intrinsic dipole orientation** and satisfies the solenoidal incompressibility constraint $\nabla \cdot \vec{B} = 0$, a propagating wave in the uniform plenum cannot be a longitudinal bulk-compression wave. Instead, the antisymmetric tensor $F^{\mu\nu}$ describes transverse rotational shear/phase-lag oscillations of the plenum's dipole orientation perpendicular to the wavevector $\vec{k}$, yielding exactly **two physical transverse polarization states**. Longitudinal compression is non-propagating and remains locked in static/quasi-static near-field density gradients (Coulomb and gravitational potentials).
+- **Speed $c$:** The intrinsic shear/phase-lag wave speed of the undisturbed plenum ($c_0 = \sqrt{\sigma/\rho_0}$).
+- **Energy Transport:** Waves transport energy and momentum through propagating dipole phase-lag strain in the plenum.
 
 **The Source Term Recovery**
 

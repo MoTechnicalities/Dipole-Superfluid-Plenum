@@ -224,9 +224,10 @@ In the Plenum Ontology interpretation:
 - **σ** = universal plenum tension (0.0212 N)
 
 ### Scale Hierarchy
-At laboratory scales (cm-m), the effective magnetic parameters are:
+At laboratory and quantum scales, the magnetic and plenum parameters are:
 - **σ_eff** ≈ μ₀ (emergent permeability at macroscopic scales)
-- **Fundamental σ** = 3.518 × 10⁴³ N (Planck-scale tension)
+- **Universal plenum tension σ** = 0.0212 N (calibrated at the electron Compton wavelength scale)
+- **Planck force limit** = c⁴/(8πG) ≈ 4.8 × 10⁴² N (upper saturation limit for gravitational compaction)
 
 See Section 2 of main theory document for ocean analogy explaining scale transitions.
 
