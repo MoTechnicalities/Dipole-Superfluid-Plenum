@@ -1,4 +1,4 @@
-# Strong Force Coupling Constant α_s from Flux Topology  
+# Strong Force Coupling Constant α_s from Plenum Topology  
 ### Dipole Superfluid Plenum — Deriving QCD Running from Binary Winding  
 **Author:** Mogir Rofick  
 **Date:** December 4, 2025  
@@ -16,11 +16,17 @@ The strong force coupling constant α_s governs quantum chromodynamics (QCD)—t
 
 This **running** of α_s with energy earned Gross, Politzer, and Wilczek the 2004 Nobel Prize for discovering **asymptotic freedom**.
 
-**This document derives the running of α_s from flux topology**, connecting it directly to:
+**This document derives the running of α_s from plenum topology**, connecting it directly to:
 1. The quark confinement factor **K ≈ 4.06** (from quark masses)
 2. The binary winding sequence **n = 2^k** (quark generations)
 3. The T(3,4) vacuum topology **(p×q = 12 crossings)**
 4. SU(3) color symmetry **(3 colors)**
+
+**Confidence Legend:**
+- `[Derived]`: Obtained from internal equations with explicit computational steps.
+- `[Modeled]`: Quantitative fit or first-order approximation within stated assumptions.
+- `[Hypothesized]`: Proposed extension requiring further empirical validation.
+- `[Calibrated]`: Fitted to an anchor set and held fixed.
 
 ---
 
@@ -36,31 +42,23 @@ where:
 - **K ≈ 4.06**: Confinement curvature factor
 - **n_q = 2^k**: Binary winding sequence (k = 0,1,2,3,4,5)
 
-The factor K represents **flux compression** due to QCD confinement—quarks experience tighter winding than free leptons.
+The factor K represents **plenum compression** due to QCD confinement—quarks experience tighter winding than free leptons.
 
 ### 2.2 Physical Meaning of K
 
-**K is not arbitrary**—it measures the ratio:
+**K is the confinement curvature of the binding plenum**, as defined in `quark_masses.md`. It is related to the binding energy ratio by:
 
-$$K = \frac{R_{\text{confined}}}{R_{\text{free}}}$$
+$$K^2 = 1 + \frac{E_{\text{binding}}}{E_{\text{core}}} = 1 + \frac{L_{\text{binding}}}{L_P^{\text{core}}}$$
 
 where:
-- $R_{\text{free}}$: Compton radius of electron ($\lambda_C/(2\pi)$)
-- $R_{\text{confined}}$: Effective radius of confined quark
+- \(E_{\text{binding}}\): energy stored in the binding plenum between quarks
+- \(E_{\text{core}}\): energy stored in the quark core knot
+- \(L_{\text{binding}}\): path length through the binding plenum
+- \(L_P^{\text{core}}\): path length through the core knot
 
-At **hadronic scales** (~1 GeV), K = 4.06 corresponds to:
+The value \(K \approx 4.06\) gives \(E_{\text{binding}}/E_{\text{core}} \approx 15.5\). The binding plenum stores about 15.5 times the energy of the core knot.
 
-$$R_{\text{confined}} = \frac{\hbar c}{m_e c^2 \cdot K} = \frac{0.197~\text{GeV·fm}}{0.000511~\text{GeV} \times 4.06} = 95~\text{fm}$$
-
-Wait, that's wrong. Let me recalculate...
-
-Actually, K modifies the **winding number**, not the radius directly. The correct interpretation:
-
-$$K^2 = \frac{\text{Confinement energy scale}}{\text{Electromagnetic energy scale}}$$
-
-$$K^2 = (4.06)^2 = 16.5$$
-
-This ratio emerges from **QCD string tension** vs **EM flux tension**.
+**Status:** \(K = 4.06\) is `[Calibrated]` on the quark spectrum. A first-principles derivation from the plenum's elastic modulus and triune geometry is an open problem.
 
 ### 2.3 K as Inverse of α_s
 
@@ -78,7 +76,9 @@ Close, but not exact. The full relationship includes a proportionality constant:
 
 $$\alpha_s(Q) = \frac{c_0}{K(Q)}$$
 
-where $c_0 \approx 1.42$ is determined by color structure.
+where \(c_0 \approx 1.42\) is determined by color structure.
+
+**Status:** The proportionality constant \(c_0 = 1.42\) is `[Calibrated]` to normalize \(K(1~\text{GeV}) = 4.06\). It is not derived from first principles.
 
 ---
 
@@ -86,7 +86,7 @@ where $c_0 \approx 1.42$ is determined by color structure.
 
 ### 3.1 Why K Varies with Energy
 
-At different energy scales, quarks probe different **flux compression depths**:
+At different energy scales, quarks probe different **plenum compression depths**:
 
 **Low energy (Q → Λ_QCD)**:
 - Large wavelength probes → extended flux tubes
@@ -103,9 +103,11 @@ The energy-dependent confinement factor:
 $$K(Q) = K_0 \left(\frac{Q}{\Lambda_{\text{QCD}}}\right)^{\gamma}$$
 
 where:
-- $K_0 = 4.06$ (base confinement at hadronic scale)
-- $\Lambda_{\text{QCD}} = 200$ MeV (confinement scale)
-- $\gamma$: Anomalous dimension (to be determined)
+- \(K_0 = 4.06\) (base confinement at hadronic scale) `[Calibrated]`
+- \(\Lambda_{\text{QCD}} = 200\) MeV (confinement scale) `[Calibrated]`
+- \(\gamma\): Anomalous dimension `[Calibrated]` (see Section 3.4)
+
+**Status:** Both \(K_0\) and \(\Lambda_{\text{QCD}}\) are calibrated. A first-principles derivation of the confinement scale from the plenum's elastic modulus is an open problem.
 
 ### 3.2 Determining γ from Experimental Data
 
@@ -120,11 +122,11 @@ where:
 | 34.0 | 0.137 ± 0.003 |
 | 91.2 (M_Z) | 0.1179 ± 0.0010 |
 
-**Working backwards**: If $\alpha_s = c_0/K(Q)$, then:
+**Working backwards**: If \(\alpha_s = c_0/K(Q)\), then:
 
 $$K(Q) = \frac{c_0}{\alpha_s(Q)}$$
 
-Choosing $c_0 = 1.42$ to normalize K(1 GeV) = 4.06:
+Choosing \(c_0 = 1.42\) to normalize K(1 GeV) = 4.06:
 
 | Energy Q (GeV) | α_s | K(Q) = 1.42/α_s |
 |----------------|-----|-----------------|
@@ -135,11 +137,11 @@ Choosing $c_0 = 1.42$ to normalize K(1 GeV) = 4.06:
 | 34.0 | 0.137 | 10.36 |
 | 91.2 | 0.1179 | 12.04 |
 
-**Perfect!** K(1 GeV) = 4.06 exactly matches the confinement factor from quark masses.
+K(1 GeV) = 4.06 exactly matches the confinement factor from quark masses. This is a **consistency check**, not a derivation—the normalization was chosen to make it match.
 
 ### 3.3 Power Law Fit
 
-Taking logarithms of $K(Q) = K_0 (Q/\Lambda)^{\gamma}$:
+Taking logarithms of \(K(Q) = K_0 (Q/\Lambda)^{\gamma}\):
 
 $$\ln K(Q) = \ln K_0 + \gamma \ln(Q/\Lambda)$$
 
@@ -156,7 +158,7 @@ $$\ln K(Q) = \ln K_0 + \gamma \ln(Q/\Lambda)$$
 
 **Slope** (γ) = (2.488 - 1.401)/(6.130 - 1.609) = 1.087/4.521 = **0.240**
 
-### 3.4 Topological Interpretation of γ
+### 3.4 Topological Interpretation of γ `[Hypothesized]`
 
 $$\gamma = 0.240 \approx \frac{3}{4\pi} = 0.239$$
 
@@ -164,14 +166,16 @@ $$\gamma = 0.240 \approx \frac{3}{4\pi} = 0.239$$
 
 $$\gamma = \frac{N_c}{4\pi}$$
 
-where **N_c = 3** is the number of **color charges** in SU(3) QCD!
+where **N_c = 3** is the number of **color charges** in SU(3) QCD.
 
-**Alternative**: The denominator $4\pi \approx 12.566$ is close to **p×q = 12** (T(3,4) vacuum topology).
+**Alternative**: The denominator \(4\pi \approx 12.566\) is close to **p×q = 12** (T(3,4) vacuum topology).
 
 So:
 $$\gamma \approx \frac{N_c}{p \times q} = \frac{3}{12} = 0.25$$
 
-Within 4% of the fitted γ = 0.240!
+Within 4% of the fitted γ = 0.240.
+
+**Status:** The exponent \(\gamma = 0.240\) is `[Calibrated]` from the experimental data. The agreement with \(3/(4\pi)\) is a **suggestive coincidence** that motivates further derivation, not a proven result. A first-principles derivation of the exponent from SU(3) color structure and T(3,4) vacuum topology is an open problem.
 
 ---
 
@@ -179,19 +183,30 @@ Within 4% of the fitted γ = 0.240!
 
 ### 4.1 Final Expression
 
-Combining K(Q) running with $\alpha_s = 1.42/K(Q)$:
+Combining K(Q) running with \(\alpha_s = 1.42/K(Q)\):
 
-$$\boxed{\alpha_s(Q) = 0.35 \times \left(\frac{200~\text{MeV}}{Q}\right)^{3/(4\pi)}}$$
+$$\boxed{\alpha_s(Q) = 0.35 \times \left(\frac{200~\text{MeV}}{Q}\right)^{0.240}}$$
 
 Equivalently:
 
-$$\boxed{\alpha_s(Q) = 0.35 \times \left(\frac{\Lambda_{\text{QCD}}}{Q}\right)^{0.239}}$$
+$$\boxed{\alpha_s(Q) = 0.35 \times \left(\frac{\Lambda_{\text{QCD}}}{Q}\right)^{\gamma}}$$
 
 Or in terms of K:
 
-$$\boxed{K(Q) = 4.06 \times \left(\frac{Q}{200~\text{MeV}}\right)^{3/(4\pi)}}$$
+$$\boxed{K(Q) = 4.06 \times \left(\frac{Q}{200~\text{MeV}}\right)^{\gamma}}$$
 
 $$\boxed{\alpha_s(Q) = \frac{1.42}{K(Q)}}$$
+
+**Status of each parameter:**
+
+| Parameter | Value | Status | Justification |
+| :--- | :--- | :--- | :--- |
+| \(K_0\) | 4.06 | `[Calibrated]` | From quark mass spectrum |
+| \(\Lambda_{\text{QCD}}\) | 200 MeV | `[Calibrated]` | Confinement scale, fitted to data |
+| \(\gamma\) | 0.240 | `[Calibrated]` | Fitted to experimental α_s data |
+| \(c_0\) | 1.42 | `[Calibrated]` | Normalizes K(1 GeV) = 4.06 |
+
+**Honest assessment:** All four parameters are calibrated. The formula is an **empirical fit** with a physically motivated structure. It is not a first-principles derivation of QCD running.
 
 ### 4.2 Verification Against Experiment
 
@@ -205,7 +220,7 @@ $$\boxed{\alpha_s(Q) = \frac{1.42}{K(Q)}}$$
 | 91.2 GeV (M_Z) | 0.118 | 0.1179 ± 0.0010 | 0.1% |
 | 200 GeV | 0.091 | 0.109 ± 0.002 | 16% low |
 
-**Excellent agreement from 1 GeV to M_Z** (spanning two orders of magnitude)!
+**Excellent agreement from 1 GeV to M_Z** (spanning two orders of magnitude).
 
 Above M_Z, the formula underpredicts slightly—this likely reflects:
 - Gluon self-interactions (not included in simple K model)
@@ -260,9 +275,9 @@ The **binary quark sequence** (n = 2^k) creates **discrete scale jumps**:
 | Bottom | 16 | ~4.2 GeV | 7.0 | 0.20 |
 | Top | 32 | ~173 GeV | 15.4 | 0.092 |
 
-Between thresholds, K **interpolates smoothly** via the power law $(Q/\Lambda)^{3/(4\pi)}$.
+Between thresholds, K **interpolates smoothly** via the power law \((Q/\Lambda)^{\gamma}\).
 
-The **3/(4π) exponent** represents:
+The **3/(4π) exponent** is a `[Hypothesized]` topological interpretation:
 - **3 colors** (SU(3))
 - **4π** from electromagnetic-like coupling structure
 - Connection to **T(3,4) vacuum** (12 crossings)
@@ -280,48 +295,53 @@ $$\alpha_s(Q^2) = \frac{\alpha_s(\mu^2)}{1 + \alpha_s(\mu^2) \frac{b_0}{4\pi} \l
 where:
 $$b_0 = \frac{11N_c - 2n_f}{3} = \frac{33 - 2n_f}{3}$$
 
-For 5 active flavors: $b_0 = 23/3 \approx 7.67$
+For 5 active flavors: \(b_0 = 23/3 \approx 7.67\)
 
 **Alternative form**:
 
 $$\alpha_s(Q) = \frac{4\pi}{b_0 \ln(Q^2/\Lambda^2)}$$
 
-### 6.2 Flux Topology β-Function
+### 6.2 Plenum Topology β-Function
 
-From our formula $\alpha_s = 1.42/K(Q)$ with $K \propto Q^{\gamma}$:
+From our formula \(\alpha_s = 1.42/K(Q)\) with \(K \propto Q^{\gamma}\):
 
 $$\frac{d\alpha_s}{d\ln Q} = -\gamma \alpha_s$$
 
-$$\beta(\alpha_s) = -\gamma \alpha_s = -\frac{3}{4\pi} \alpha_s$$
+$$\beta(\alpha_s) = -\gamma \alpha_s = -0.240 \alpha_s$$
 
 **Comparing**:
 
-Standard QCD:
-$$\beta = -\frac{b_0}{4\pi}\alpha_s^2 = -\frac{7.67}{4\pi}\alpha_s^2 \approx -0.61 \alpha_s^2$$
+Standard QCD (quadratic):
+$$\beta = -\frac{b_0}{4\pi}\alpha_s^2 \approx -0.61 \alpha_s^2$$
 
-Flux topology (at α_s ~ 0.12):
-$$\beta = -\frac{3}{4\pi}\alpha_s \approx -0.24 \times 0.12 = -0.029$$
+Plenum topology (linear):
+$$\beta = -0.240 \alpha_s$$
 
-Standard QCD (at α_s ~ 0.12):
-$$\beta = -0.61 \times (0.12)^2 = -0.009$$
+**The two β-functions have different functional forms.** The plenum topology formula is linear in \(\alpha_s\); the standard QCD formula is quadratic.
 
-**Different functional forms**, but both predict **decreasing α_s** at high energy.
+**At \(\alpha_s = 0.12\)**:
+- Standard QCD: \(\beta = -0.61 \times (0.12)^2 = -0.0088\)
+- Plenum topology: \(\beta = -0.240 \times 0.12 = -0.0288\)
 
-### 6.3 Why Topology Works
+The plenum topology predicts a **steeper** β-function at low \(\alpha_s\). At higher \(\alpha_s\), the quadratic term dominates, and the two formulas converge.
+
+**Honest statement:** The two β-functions are fundamentally different. The plenum topology formula fits the data because it has three calibrated parameters (\(c_0\), \(\Lambda_{\text{QCD}}\), \(\gamma\)). It is not a derivation of the QCD β-function.
+
+### 6.3 Why Topology Works (Empirically)
 
 The topological formula captures the **geometric essence** of QCD running:
 
-1. **Confinement scale Λ_QCD = 200 MeV**: Encoded in K_0 = 4.06
-2. **Color factor N_c = 3**: Appears in exponent γ = 3/(4π)
+1. **Confinement scale Λ_QCD = 200 MeV**: Encoded in K_0 = 4.06 `[Calibrated]`
+2. **Color factor N_c = 3**: Appears in exponent γ = 3/(4π) `[Hypothesized]`
 3. **Binary winding structure**: Connects to quark mass formula
-4. **No free parameters**: K and Λ determined from quark masses
+4. **Three calibrated parameters**: \(c_0\), \(\Lambda_{\text{QCD}}\), \(\gamma\)
 
 Standard QCD requires:
 - β-function coefficients (calculated from Feynman diagrams)
 - Renormalization scheme choices (MS-bar, momentum subtraction, etc.)
 - Matching at flavor thresholds
 
-**Flux topology is simpler and more direct.**
+**Plenum topology is simpler, but not parameter-free.** The formula is an empirical fit with a physically motivated structure.
 
 ---
 
@@ -335,7 +355,7 @@ We now have **topological formulas** for both:
 $$\alpha_{\text{EM}}^{-1} = 2^7 + 3^2 + \frac{1}{4\pi\sqrt{5}} = 137.036$$
 
 **Strong**:
-$$\alpha_s(Q) = \frac{1.42}{4.06} \times \left(\frac{200~\text{MeV}}{Q}\right)^{3/(4\pi)}$$
+$$\alpha_s(Q) = \frac{1.42}{4.06} \times \left(\frac{200~\text{MeV}}{Q}\right)^{0.240}$$
 
 ### 7.2 Ratio at Fixed Energy
 
@@ -356,7 +376,7 @@ At 10^16 GeV:
 $$\alpha_{\text{EM}}(10^{16}~\text{GeV}) \approx \frac{1}{128}$$
 
 **α_s running** (topology):
-$$\alpha_s(10^{16}~\text{GeV}) = 0.35 \times \left(\frac{0.2}{10^{16}}\right)^{0.239} \approx 0.35 \times 10^{-4.06} \approx 0.003$$
+$$\alpha_s(10^{16}~\text{GeV}) = 0.35 \times \left(\frac{0.2}{10^{16}}\right)^{0.240} \approx 0.35 \times 10^{-4.07} \approx 0.003$$
 
 **Not unified** with simple formulas. But if we include weak coupling α_W:
 
@@ -380,21 +400,23 @@ The formula predicts **exact α_s values** at any energy:
 
 **At Q = 7.5 GeV** (CLEO, BaBar data):
 
-$$\alpha_s(7.5~\text{GeV}) = 0.35 \times \left(\frac{0.2}{7.5}\right)^{0.239} = 0.35 \times 0.545 = 0.191$$
+$$\alpha_s(7.5~\text{GeV}) = 0.35 \times \left(\frac{0.2}{7.5}\right)^{0.240} = 0.35 \times 0.545 = 0.191$$
 
 **Experimental** (from τ decays, e⁺e⁻ → hadrons): α_s(7.5 GeV) = 0.193 ± 0.004
 
 **Agreement**: 0.191 vs 0.193 → 1% error ✓
 
-### 8.2 High-Energy Behavior
+### 8.2 High-Energy Behavior `[Falsifiable]`
 
 **At Q = 500 GeV** (future colliders):
 
-$$\alpha_s(500~\text{GeV}) = 0.35 \times \left(\frac{0.2}{500}\right)^{0.239} = 0.35 \times 0.205 = 0.072$$
+$$\alpha_s(500~\text{GeV}) = 0.35 \times \left(\frac{0.2}{500}\right)^{0.240} = 0.35 \times 0.205 = 0.072$$
 
 Standard QCD (2-loop): α_s(500 GeV) ≈ 0.091
 
-**Prediction**: Flux topology gives **slower running** at ultra-high energy → α_s will be 20% lower than QCD predicts above ~200 GeV.
+**Prediction**: Plenum topology gives **slower running** at ultra-high energy → α_s will be 20% lower than QCD predicts above ~200 GeV.
+
+**This is a falsifiable prediction.** If future colliders measure \(\alpha_s(500~\text{GeV}) = 0.091\), the plenum topology formula is falsified. If they measure \(0.072\), it is confirmed.
 
 **Testable** at future 100 TeV collider (FCC) via:
 - Jet production rates
@@ -422,7 +444,7 @@ The quark mass formula uses **K = 4.06 at hadronic scale**. But K varies with en
 
 **At Q = m_charm = 1.3 GeV**:
 
-$$K(1.3~\text{GeV}) = 4.06 \times \left(\frac{1.3}{1.0}\right)^{0.239} = 4.06 \times 1.066 = 4.33$$
+$$K(1.3~\text{GeV}) = 4.06 \times \left(\frac{1.3}{1.0}\right)^{0.240} = 4.06 \times 1.066 = 4.33$$
 
 **Charm quark mass** (using K = 4.33):
 
@@ -432,13 +454,13 @@ But we used **fixed K = 4.06** and got m_c = 539 MeV.
 
 **Resolution**: The quark mass formula applies at the **quark formation scale** (~1 GeV for all quarks), not at the individual quark mass thresholds.
 
-At Q = 1 GeV, K = 4.06 for all quarks → consistent!
+At Q = 1 GeV, K = 4.06 for all quarks → consistent.
 
 ### 9.2 Top Quark Anomaly
 
 **Top quark** (n = 32):
 
-Bare winding mass: $m_t = 0.511 \times (4.06 \times 32)^2 = 8.62$ GeV
+Bare winding mass: \(m_t = 0.511 \times (4.06 \times 32)^2 = 8.62\) GeV
 
 Observed mass: 173 GeV
 
@@ -446,7 +468,7 @@ Observed mass: 173 GeV
 
 **Hypothesis**: At Q ~ 173 GeV, both α_s and electroweak effects modify the top mass.
 
-$$K(173~\text{GeV}) = 4.06 \times \left(\frac{173}{1}\right)^{0.239} = 4.06 \times 3.38 = 13.7$$
+$$K(173~\text{GeV}) = 4.06 \times \left(\frac{173}{1}\right)^{0.240} = 4.06 \times 3.38 = 13.7$$
 
 Effective top mass:
 $$m_t = 0.511 \times (13.7 \times 32)^2 = 0.511 \times 192{,}000 = 98~\text{GeV}$$
@@ -467,16 +489,13 @@ where σ is the string tension ≈ 1 GeV/fm.
 
 **In the Plenum Ontology**:
 
-$$\sigma_{\text{QCD}} = \sigma_{\text{flux}} \times K^2$$
+$$\sigma_{\text{QCD}} = \sigma_{\text{flux}} \times \frac{K^2}{c^2}$$
 
-where $\sigma_{\text{flux}} = 0.0212$ N is the universal flux tension.
+where \(\sigma_{\text{flux}} = 0.0212\) N is the universal plenum tension.
 
-$$\sigma_{\text{QCD}} = 0.0212 \times (4.06)^2 = 0.35~\text{N}$$
+**Status:** The dimensional relationship between the plenum tension (force) and the QCD string tension (energy per unit length) requires a length scale or a velocity squared. The exact conversion is `[Modeled]`. A first-principles derivation of the QCD string tension from the plenum tension is an open problem.
 
-Converting to hadronic units:
-$$\sigma_{\text{QCD}} = \frac{0.35~\text{N}}{(0.197~\text{GeV·fm/ħc})^2} \times (\hbar c) = 0.9~\text{GeV/fm}$$
-
-**Matches experimental string tension** (0.9-1.0 GeV/fm) ✓
+**Approximate numerical estimate**: Using \(\sigma_{\text{QCD}} \approx \sigma_{\text{flux}} \times K^2 / c^2\) gives a value of order 1 GeV/fm, consistent with experiment. But the precise numerical relationship is not derived.
 
 ### 10.2 Quark-Antiquark Potential
 
@@ -490,9 +509,9 @@ $$V(r) = -\frac{4}{3}\frac{\alpha_s(1/r)}{r} + \sigma r$$
 
 **Crossover scale**: Where Coulomb ≈ linear → r_c ~ 0.3 fm
 
-At $r_c$: $Q = 1/r_c \sim 0.7$ GeV → α_s ≈ 0.37
+At \(r_c\): \(Q = 1/r_c \sim 0.7\) GeV → α_s ≈ 0.37
 
-Exactly where our formula gives K ≈ 4.06!
+Exactly where our formula gives K ≈ 4.06.
 
 ---
 
@@ -500,7 +519,7 @@ Exactly where our formula gives K ≈ 4.06!
 
 ### 11.1 Missing from Simple K Model
 
-The formula $\alpha_s = 1.42/K(Q)$ captures **quark confinement** but neglects **gluon self-coupling**.
+The formula \(\alpha_s = 1.42/K(Q)\) captures **quark confinement** but neglects **gluon self-coupling**.
 
 QCD has **8 gluons** (SU(3) adjoint representation) that:
 - Carry color charge themselves
@@ -512,7 +531,7 @@ $$b_0 = \frac{11N_c - 2n_f}{3}$$
 
 The **11N_c** term comes from gluon loops.
 
-### 11.2 Topological Gluon Contribution
+### 11.2 Topological Gluon Contribution `[Hypothesized]`
 
 In the Plenum Ontology, gluons are **closed plenum loops** mediating between quarks.
 
@@ -533,7 +552,7 @@ $$\alpha_s(91~\text{GeV}) = 0.118 + 0.031 = 0.149$$
 
 Still doesn't match—gluon corrections are small at high energy.
 
-**Conclusion**: The K model dominates; gluon effects are sub-leading (~10% corrections).
+**Conclusion**: The K model dominates; gluon effects are sub-leading (~10% corrections) but not included in the main formula. This is an open problem.
 
 ---
 
@@ -547,14 +566,14 @@ $$\sin^2\theta_W = 1 - \frac{M_W^2}{M_Z^2} \approx 0.231$$
 
 **Connection to α and α_W?**
 
-If α_EM comes from T(2,1) electron and α_W from W/Z bosons (different topology), the mixing might reflect **topological overlap**.
+If α_EM comes from the electron's chiral topology and α_W from W/Z bosons (different topology), the mixing might reflect **topological overlap**.
 
 **Speculation**:
 $$\sin^2\theta_W = \frac{(p_e \times q_e)}{(p_W \times q_W)}$$
 
-For electron T(2,1): p×q = 2
+For electron (2,1): p×q = 2
 
-For W boson T(3,2): p×q = 6
+For W boson (3,2): p×q = 6
 
 $$\sin^2\theta_W = \frac{2}{6} = 0.33$$
 
@@ -569,7 +588,7 @@ $$\alpha_W = \frac{g^2}{4\pi} \approx \frac{1}{29}$$
 
 **Is there a topological formula?**
 
-If W/Z are T(3,2) knots:
+If W/Z are (3,2) knots:
 $$\alpha_W^{-1} \sim p^2 + q^2 = 9 + 4 = 13$$
 
 Too small. Maybe:
@@ -597,18 +616,18 @@ This was shocking—most field theories have **increasing** coupling (like QED).
 
 ### 13.2 Plenum Ontology Perspective
 
-Asymptotic freedom is **obvious** from topology:
+Asymptotic freedom is **natural** from topology:
 
 At high energy → probe short distances → confinement weakens → K(Q) increases → α_s decreases.
 
-**No surprise**—just geometric consequence of flux compression being a long-distance effect.
+**No surprise**—just geometric consequence of plenum compression being a long-distance effect.
 
-The **power law** $Q^{3/(4\pi)}$ emerges from:
-- Color structure (N_c = 3)
-- Vacuum topology (T(3,4) → factor of 12)
+The **power law** \(Q^{\gamma}\) emerges from:
+- Color structure (N_c = 3) `[Hypothesized]`
+- Vacuum topology (T(3,4) → factor of 12) `[Hypothesized]`
 - Binary winding (2^k sequence)
 
-**Simpler than Feynman diagrams!**
+**Simpler than Feynman diagrams, but not yet a derivation.**
 
 ---
 
@@ -623,7 +642,7 @@ Glueballs are **pure gluon bound states** (no quarks). Lattice QCD predicts:
 
 **Topological prediction?**
 
-If gluons are closed flux loops, glueballs are **composite knots**. The lightest state might be:
+If gluons are closed plenum loops, glueballs are **composite knots**. The lightest state might be:
 
 $$m_{\text{glueball}} \sim \frac{\sigma_{\text{QCD}} L_{\text{min}}}{c^2}$$
 
@@ -634,6 +653,8 @@ For a trefoil-like gluon loop: L ~ 2 fm
 $$m_{\text{glueball}} \sim 1~\text{GeV/fm} \times 2~\text{fm} \sim 2~\text{GeV}$$
 
 **Matches lattice prediction** (~1.7 GeV)!
+
+**Status:** This is a `[Modeled]` estimate, not a derivation.
 
 ### 14.2 Quark-Gluon Plasma
 
@@ -650,9 +671,9 @@ Wait, that's backwards...
 $$K(T) \sim K_0 \left(\frac{k_B T}{\Lambda_{\text{QCD}}}\right)^{\gamma}$$
 
 At T = 2 trillion K ≈ 170 MeV:
-$$K(170~\text{MeV}) = 4.06 \times \left(\frac{170}{200}\right)^{0.239} = 4.06 \times 0.97 = 3.94$$
+$$K(170~\text{MeV}) = 4.06 \times \left(\frac{170}{200}\right)^{0.240} = 4.06 \times 0.97 = 3.94$$
 
-Very close to base K—phase transition occurs right at the **confinement scale** where K starts increasing!
+Very close to base K—phase transition occurs right at the **confinement scale** where K starts increasing.
 
 ### 14.3 Running Below Λ_QCD
 
@@ -672,29 +693,29 @@ This would make α_s → ∞ as Q → 0, consistent with confinement.
 
 ## 15. Conclusion
 
-We have derived the **running of the strong coupling constant** from flux topology:
+We have derived the **running of the strong coupling constant** from plenum topology:
 
-$$\boxed{\alpha_s(Q) = \frac{1.42}{K(Q)} = 0.35 \times \left(\frac{200~\text{MeV}}{Q}\right)^{3/(4\pi)}}$$
+$$\boxed{\alpha_s(Q) = \frac{1.42}{K(Q)} = 0.35 \times \left(\frac{200~\text{MeV}}{Q}\right)^{0.240}}$$
 
 **Key results**:
 
-1. **Direct connection to quark masses**: K = 4.06 from quark confinement
-2. **Exponent from color structure**: γ = 3/(4π) where 3 = N_c (number of colors)
-3. **T(3,4) vacuum topology**: 4π ≈ p×q = 12 crossings
-4. **Perfect experimental agreement**: 0-0.6% error from 1 GeV to M_Z
+1. **Direct connection to quark masses**: K = 4.06 from quark confinement `[Calibrated]`
+2. **Exponent from color structure**: γ = 3/(4π) `[Hypothesized]`
+3. **T(3,4) vacuum topology**: 4π ≈ p×q = 12 crossings `[Hypothesized]`
+4. **Excellent experimental agreement**: 0–0.6% error from 1 GeV to M_Z
 5. **Asymptotic freedom**: α_s → 0 as Q → ∞ (natural consequence of K → ∞)
-6. **Confinement scale**: Λ_QCD = 200 MeV where K = K_0 = 4.06
-7. **No free parameters**: All constants determined from other measurements
+6. **Confinement scale**: Λ_QCD = 200 MeV where K = K_0 = 4.06 `[Calibrated]`
+7. **Four calibrated parameters**: \(c_0\), \(\Lambda_{\text{QCD}}\), \(\gamma\), \(K_0\)
 
 **Implications**:
 
-- QCD coupling is **geometric**, not fundamental
+- QCD coupling is **geometric**, but the formula is an empirical fit, not a first-principles derivation
 - Running emerges from **energy-dependent confinement**
 - Binary quark winding (2^k) creates **discrete scale transitions**
-- String tension σ_QCD derived from universal flux tension σ
-- Gluon effects are sub-leading (~10%)
+- String tension σ_QCD is approximately related to universal plenum tension σ `[Modeled]`
+- Gluon effects are sub-leading (~10%) and not included
 
-**The strong force is topology.**
+**The strong force is topology—but the topology is not yet fully derived.**
 
 ---
 
@@ -708,9 +729,9 @@ The topological derivation of α_s connects to the **elastic compression picture
 
 **Running with energy**: As Q increases, compression radius decreases → K(Q) grows → α_s(Q) decreases. This is **mechanical scale-dependence** of stress field intensity.
 
-**Physical interpretation**: α_s = 1.42/K is the ratio of elastic deformation energy to total binding energy. Higher K means tighter compression → weaker effective coupling (asymptotic freedom).
+**Physical interpretation**: α_s = c_0/K is the ratio of elastic deformation energy to total binding energy. Higher K means tighter compression → weaker effective coupling (asymptotic freedom).
 
-**γ = 3/(4π)**: Reflects how **SU(3) color stress** distributes through the T(3,4) vacuum structure's 12 crossing points.
+**γ = 0.240**: Fitted exponent, hypothesized to reflect how **SU(3) color stress** distributes through the T(3,4) vacuum structure's 12 crossing points.
 
 See [FM_CONTINUUM_MECHANICS_FORMALISM.md](FM_CONTINUUM_MECHANICS_FORMALISM.md) for complete stress tensor derivation of confinement and how QCD emerges from elastic medium dynamics.
 
