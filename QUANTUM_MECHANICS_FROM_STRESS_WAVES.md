@@ -110,6 +110,26 @@ $$|\psi|^2 = \frac{\sigma^* \sigma}{\sigma_0^2} \propto \text{stress energy dens
 
 Where particles are most likely to be found = where stress energy is concentrated.
 
+### 3.5 Exact vs. Approximate Regimes and Falsification Criteria
+
+A central scientific question for this derivation is whether the emergence of the Schrödinger equation from plenum stress waves is **exact** or an **approximation**, and what experimental signatures distinguish it from standard axiomatic quantum mechanics.
+
+#### 1. What Is Exact vs. What Is an Approximation
+- **Fundamental Equation (Exact in Continuum Plenum):** The underlying relativistic stress-wave dynamics of the dipole superfluid plenum are governed by the master equation $\partial_\mu(\rho_B F^{\mu\nu}) + \sigma \frac{\delta\Phi}{\delta x^\nu} = J^\nu$, which for a localized crystallization of rest frequency $\omega_0 = mc^2/\hbar$ yields a relativistic Klein-Gordon / Dirac-type wave equation with carrier phase $e^{-i\omega_0 t}$.
+- **Slow-Envelope & Linear-Elastic Reduction (Controlled Approximation):** The standard linear Schrödinger equation
+  $$i\hbar \frac{\partial \psi}{\partial t} = -\frac{\hbar^2}{2m} \nabla^2 \psi + V(\vec{r}) \psi$$
+  is obtained by factoring out the Compton carrier oscillation, $\sigma(\vec{r},t) = \sigma_0 \psi(\vec{r},t) e^{-i m c^2 t / \hbar}$, and taking two controlled limits:
+  1. **The Non-Relativistic Paraxial/Slow-Envelope Limit:** $|\partial_t^2 \psi| \ll \omega_0 |\partial_t \psi|$ (kinetic energy $E_k \ll m c^2$), so the second time derivative $\partial_t^2 \sigma$ reduces to the first-order Schrödinger time derivative $-2i\omega_0 \partial_t \psi$.
+  2. **The Small-Strain Hookean Limit:** Local stress-wave amplitude remains well below the plenum's critical nonlinear saturation threshold ($\epsilon \ll \epsilon_{\text{crit}}$), so Hooke's law ($\sigma = E\epsilon$) and linear superposition hold to high precision.
+
+Thus, the linear Schrödinger equation is the **exact slow-envelope limit** of linear stress waves in the plenum, while the full plenum theory is **nonlinear and relativistic** at high strain and short wavelengths ($\lambda \lesssim \bar{\lambda}_c$).
+
+#### 2. Explicit Falsification Criteria
+Because this derivation grounds $\psi$ in a physical superfluid medium with finite elastic modulus ($E \approx 2.9 \times 10^{35}\text{ Pa}$) and a critical stress threshold, it makes falsifiable predictions where it departs from axiomatic linear QM:
+1. **Absence of Intrinsic Vacuum Collapse Noise (Superfluidity Test):** Objective-collapse modifications of QM (such as GRW orCSL models) postulate spontaneous stochastic wave-packet collapse even in empty space, producing anomalous heating and decoherence. Because the dipole superfluid plenum has **strictly zero viscosity below its critical stress threshold**, an isolated matter wave in vacuum experiences **zero intrinsic damping or spontaneous collapse** when environmental stress gradients vanish. Detection of intrinsic, environment-independent collapse noise in space-based macroscopic matter-wave interferometers (e.g., MAQRO) would **falsify** the superfluid plenum postulate.
+2. **High-Strain Nonlinearity at the Compton Scale:** Standard QM assumes exact linearity at all energy scales. In the plenum ontology, when wave-packet confinement approaches the Compton scale ($\Delta x \to \bar{\lambda}_e$), cubic/higher-order elastic self-stress terms ($\propto |\psi|^2 \psi$, analogous to Gross-Pitaevskii superfluid nonlinearity) must appear to prevent singularity formation and stabilize topological crystallizations.
+3. **High-Frequency Relativistic Dispersion:** At energies approaching the relativistic regime ($p \sim mc$), matter-wave phase evolution must transition from the parabolic Schrödinger dispersion ($\omega \propto k^2$) to the exact relativistic plenum dispersion ($\omega^2 = c^2 k^2 + \omega_0^2$). Any deviation from this dispersion curve in precision matter-wave interferometry would falsify the stress-wave derivation.
+
 ---
 
 ## 4. The Uncertainty Principle from Stress-Strain Balance

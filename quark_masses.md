@@ -118,6 +118,18 @@ $$
 Q_{\text{quark}} = \pm \frac{1}{3} \cdot K^2 / K^2 = \pm \frac{1}{3}
 $$
 
+## 3.3 Physical Origin of $K$: The Confinement Curvature of the Binding Plenum
+
+While the lepton mass ratios follow directly from pure winding numbers ($m_n = m_e n^2$), the quark mass formula $m_q = m_e (K n_q)^2$ introduces the factor $K \approx 4.06$. In the current state of the framework, $K \approx 4.06$ is **`[Calibrated]`** on the quark spectrum, but its physical ontology is clear: **$K$ is the confinement curvature of the binding plenum** (what the Standard Model calls the gluon field).
+
+In a compound hadron crystallization (such as the triune proton or neutron), individual quark sub-knots do not exist in isolation—they are locked together by the **binding plenum** ($L_{\text{binding}}$), which stores the dominant share of the hadron's compression energy. Because each sub-knot is pinched within the interlocking triune stress field of the binding plenum, its local curvature and effective winding impedance are amplified relative to a free lepton loop by:
+
+$$
+K = \sqrt{1 + \frac{\mathcal{E}_{\text{binding}}}{\mathcal{E}_{\text{core}}}} = \sqrt{1 + \frac{L_{\text{binding}}}{L_{\mathcal{P}}^{\text{core}}}} \approx 4.06
+$$
+
+**Theoretical Derivation Target:** Rather than remaining an empirical fit parameter, $K$ should be derivable from first principles from the plenum's elastic modulus ($E \approx 2.9 \times 10^{35}~\text{Pa}$), the universal plenum tension ($\sigma = 0.0212~\text{N}$), and the minimum-energy interlocking geometry of a triune ($3_1$ / $4_1$) crystallization. Completing this variational boundary-value integral will promote $K$ from **`[Calibrated]`** to **`[Derived]`**.
+
 $$
 Q_{\text{up-type}} = +\frac{2}{3}, \quad Q_{\text{down-type}} = -\frac{1}{3}.
 $$

@@ -32,6 +32,7 @@ This repository uses the **Dipole Superfluid Plenum** and **crystallization/comp
 - **Two Complementary Topology Indexing Conventions:**
   1. **Core Loop Winding Index $T(p,q)$** (used in this `README.md`, `fine_structure_constant.md`, and the 3D visualizers): indexes the primary toroidal/poloidal circulation of the crystallization core—e.g., Electron = $T(2,1)$ (minimal chiral Möbius/trefoil loop), Proton = $T(3,2)$, Neutron = $T(3,4)$.
   2. **Embedded Manifold / Crossing Index** (used in `One_Equation(1).md` and `One_Equation(2).md`): indexes the crystallization's full 4-D causal-flow trajectory embedded within the local vacuum cell—e.g., $T_{(3,4)}$ for the electron's 10-wavelength embedded causal path ($L_{\mathcal{P}}^{(e)} = 10\bar{\lambda}_e$), $3_1$ trefoil for the triune proton configuration, and $4_1$ closed cinch (figure-8) for the amphichiral zero-net-chirality neutron.
+  - **Why the two conventions differ:** The Core Loop Index describes the primary 3-D circulation of the crystallization core; the Embedded Manifold Index describes the full 4-D causal path (including the temporal/axial phase winding within the surrounding plenum cell). Both are valid descriptions of the same crystallization at different levels of resolution.
 - **Anchor vs. Holdout Distinction:** The universal plenum tension $\sigma = 0.0212013707\text{ N}$ is **`[Calibrated]`** on the electron anchor set ($m_e, \hbar, c$, and $L_{\mathcal{P}}^{(e)} = 10\bar{\lambda}_e$) and held fixed without re-fitting across all subsequent derivations and predictions (see `MICRO_TO_MACRO_BRIDGE_V0_1.md`). Likewise, in the lepton winding hierarchy $m_n = m_e n_{\text{eff}}^2$, the quadratic scaling law, Koide identity ($Q = 2/3$), and 3-generation cascade cutoff are **`[Derived]`**, while the non-integer effective winding shifts ($n_\mu \approx 14.38, n_\tau \approx 58.97$ from relativistic core compression and aspect-ratio impedance) are **`[Calibrated]` / `[Modeled]`**.
 
 ### Confidence Legend (Reviewer Clarity)
@@ -103,9 +104,9 @@ $$\Delta x \cdot \Delta p \geq \frac{\hbar}{2}$$
 - **Zero-point energy**: Minimum stress fluctuations (vacuum can't be still)
 - **Measurement collapse**: Stress localization through interaction
 
-**Result**: All of quantum mechanics is **classical continuum mechanics** of stress waves. No interpretations needed—physical stress fields replace philosophical debates.
+**Result**: In the non-relativistic, small-strain linear regime ($\epsilon \ll \epsilon_{\text{crit}}$, $|\partial_t\psi| \ll \frac{mc^2}{\hbar}|\psi|$), the Schrödinger equation emerges as the **exact slow-envelope reduction** of the relativistic plenum stress-wave equation, while predicting testable nonlinear superfluid corrections at Compton-scale strain and zero intrinsic vacuum collapse noise below the superfluid stress threshold.
 
-🌊 **[Complete derivation → QUANTUM_MECHANICS_FROM_STRESS_WAVES.md](QUANTUM_MECHANICS_FROM_STRESS_WAVES.md)**
+🌊 **[Complete derivation, approximations & falsification criteria → QUANTUM_MECHANICS_FROM_STRESS_WAVES.md](QUANTUM_MECHANICS_FROM_STRESS_WAVES.md)**
 
 ---
 ### � JANUARY 2026 BREAKTHROUGH: Continuum Mechanics Formalism
@@ -240,7 +241,7 @@ Where **K ≈ 4.06** (QCD confinement factor) and **n = 2^k** (binary sequence):
 | Bottom | 16 | 2.16 GeV | 4.18 GeV |
 | Top | 32 | 8.62 GeV | 173 GeV (bare winding) |
 
-**Result:** Binary sequence **n = 2^k is topologically indexed**. Quantitative deviations reflect QCD running corrections and Higgs coupling—expected for first-order geometric model.
+**Result:** Binary sequence **n = 2^k is topologically indexed** (`[Derived]`). The factor **K ≈ 4.06** (`[Calibrated]`) represents the **confinement curvature of the binding plenum** (the gluon field binding the interlocking triune crystallization) and is targeted for first-principles derivation from the plenum's elastic modulus ($E \approx 2.9 \times 10^{35}\text{ Pa}$) and triune interlocking geometry. Quantitative deviations reflect QCD running corrections and Higgs coupling—expected for a first-order geometric model.
 
 #### Testable Predictions
 

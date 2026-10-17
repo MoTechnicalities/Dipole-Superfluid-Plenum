@@ -274,7 +274,7 @@ Two complementary topological indexing conventions appear across the repository:
 1. **Core Loop Winding Index $T(p,q)$** (`README.md`, `fine_structure_constant.md`, `tools/`): indexes the primary toroidal/poloidal circulation of the crystallization core—Electron = $T(2,1)$, Proton = $T(3,2)$, Neutron = $T(3,4)$.
 2. **Embedded Manifold / Crossing Index** (`One_Equation(1).md`, `One_Equation(2).md`): indexes the 4-D causal-flow trajectory embedded in the local vacuum cell—Electron = $T_{(3,4)}$ ($L_{\mathcal{P}}^{(e)} = 10\bar{\lambda}_e$), Proton = $3_1$ trefoil, Neutron = $4_1$ closed cinch (figure-8).
 
-Both conventions describe the same physical plenum crystallizations at different levels of geometric embedding.
+**Why the two conventions differ:** The Core Loop Index describes the primary circulation; the Embedded Manifold Index describes the full 4-D causal path. Both are valid descriptions of the same crystallization at different levels of resolution.
 
 ---
 

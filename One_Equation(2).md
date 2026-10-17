@@ -9,7 +9,7 @@
 
 **Document split:** This is Part 2 of 2. For foundations and sections 1-11, start with [One Equation to Rule Them All - Part 1](One_Equation(1).md).
 
-**Terminology & Topology Indexing Note:** This manuscript uses the **Dipole Superfluid Plenum** and **crystallization/compression** ontology. Two complementary topological indexing conventions appear across the repository: (1) the **Core Loop Winding Index $T(p,q)$** ($T(2,1)$ electron, $T(3,2)$ proton, $T(3,4)$ neutron) indexing primary core circulation in `README.md` and the 3D visualizers, and (2) the **Embedded Manifold / Crossing Index** ($T_{(3,4)}$ 10-wavelength embedded electron path, $3_1$ trefoil proton, $4_1$ closed-cinch figure-8 neutron) indexing the 4-D causal trajectory in this manuscript.
+**Terminology & Topology Indexing Note:** This manuscript uses the **Dipole Superfluid Plenum** and **crystallization/compression** ontology. Two complementary topological indexing conventions appear across the repository: (1) the **Core Loop Winding Index $T(p,q)$** ($T(2,1)$ electron, $T(3,2)$ proton, $T(3,4)$ neutron) indexing primary core circulation in `README.md` and the 3D visualizers, and (2) the **Embedded Manifold / Crossing Index** ($T_{(3,4)}$ 10-wavelength embedded electron path, $3_1$ trefoil proton, $4_1$ closed-cinch figure-8 neutron) indexing the 4-D causal trajectory in this manuscript. The Core Loop Index describes the primary circulation; the Embedded Manifold Index describes the full 4-D causal path. Both are valid descriptions of the same crystallization at different levels of resolution.
 
 
 ---

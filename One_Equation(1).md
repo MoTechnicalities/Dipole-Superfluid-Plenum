@@ -11,6 +11,8 @@
 1. **Core Loop Winding Index $T(p,q)$** (used in `README.md`, `fine_structure_constant.md`, and the 3D visualizers): indexes the primary toroidal/poloidal circulation of the crystallization core—Electron = $T(2,1)$ (minimal chiral Möbius/trefoil loop), Proton = $T(3,2)$, Neutron = $T(3,4)$.
 2. **Embedded Manifold / Crossing Index** (used in this manuscript): indexes the crystallization's full 4-D causal-flow trajectory embedded within the local vacuum cell—$T_{(3,4)}$ for the electron's 10-wavelength embedded causal path ($L_{\mathcal{P}}^{(e)} = 10\bar{\lambda}_e$), $3_1$ trefoil for the triune proton configuration, and $4_1$ closed cinch (figure-8) for the amphichiral zero-net-chirality neutron.
 
+*Why the two conventions differ:* The Core Loop Index describes the primary circulation; the Embedded Manifold Index describes the full 4-D causal path. Both are valid descriptions of the same crystallization at different levels of resolution.
+
 
 ---
 
