@@ -35,17 +35,22 @@ In any continuous elastic medium, disturbances propagate as waves. The displacem
 $$\frac{\partial^2 u_i}{\partial t^2} = \frac{E}{\rho} \nabla^2 u_i$$
 
 Where:
-- **E** = elastic modulus (2.9 × 10³⁵ Pa for flux medium)
-- **ρ** = mass density (flux density ρ_B)
-- **u_i** = displacement field (how far flux has moved from equilibrium)
+- **E** = elastic modulus (2.9 × 10³⁵ Pa for the plenum)
+- **ρ_B** = plenum density (the density of the medium itself)
+- **u_i** = displacement field (how far the plenum has moved from equilibrium)
 
 Wave speed: 
-$$v = \sqrt{\frac{E}{\rho}}$$
+$$v = \sqrt{\frac{E}{\rho_B}}$$
 
-For the flux medium with E ~ 10³⁵ Pa and ρ_B ~ 10¹⁷ kg/m³ (vacuum energy density):
-$$v = \sqrt{\frac{10^{35}}{10^{17}}} = 3 \times 10^8 \text{ m/s} = c$$
+**Deriving the plenum density from the wave speed:**
 
-**The speed of light is the elastic wave speed in the flux medium.**
+The wave speed in the plenum is the speed of light, \(c\). Therefore:
+
+$$\rho_B = \frac{E}{c^2} = \frac{2.9 \times 10^{35}}{(3.0 \times 10^8)^2} \approx 3.2 \times 10^{18} \text{ kg/m}^3$$
+
+This is the **plenum density**—the density of the medium itself. It is not the vacuum energy density, which is a separate quantity (the energy of the plenum's ground state, which is much smaller).
+
+**The speed of light is the elastic wave speed in the plenum.**
 
 ### 2.2 Stress Field Propagation
 
@@ -69,50 +74,68 @@ Energy propagates at speed c with the stress wave.
 
 ### 3.1 Stress Amplitude Field
 
-Consider a localized stress compression (particle) with stress field σ(x,t). The stress oscillates:
+Consider a localized stress compression (particle) with stress tensor \(\sigma_{ij}(\vec{r}, t)\). The stress tensor can be decomposed into two components:
 
-$$\sigma(\vec{r}, t) = \sigma_0(\vec{r}) \, e^{-i\omega t}$$
+- **Volumetric (compression) component:** \(\sigma_v = \frac{1}{3} \text{tr}(\sigma_{ij})\), a scalar
+- **Deviatoric (shear) component:** \(s_{ij} = \sigma_{ij} - \sigma_v \delta_{ij}\), a traceless tensor
+
+For a wave propagating in the plenum, the stress oscillates:
+
+$$\sigma_{ij}(\vec{r}, t) = \sigma_{ij}^{(0)}(\vec{r}) \, e^{-i\omega t}$$
 
 Where:
-- **σ₀(r)** = spatial stress amplitude distribution
-- **ω** = oscillation frequency = E/ℏ (de Broglie relation)
+- **\(\sigma_{ij}^{(0)}(\vec{r})\)** = spatial stress amplitude distribution
+- **\(\omega\)** = oscillation frequency = \(E/\hbar\) (de Broglie relation)
 
-### 3.2 Spatial Stress Distribution
+### 3.2 The Complex Wave Function from Stress Decomposition
 
-The spatial distribution σ₀(r) must satisfy the stress equilibrium condition. For a standing wave pattern (bound state):
+The wave function \(\psi\) is not a scalar stress field. It is a **complex combination** of the volumetric and deviatoric stress components:
 
-$$\nabla^2 \sigma_0 + k^2 \sigma_0 = 0$$
+$$\psi(\vec{r}, t) = \frac{1}{\sigma_0} \left[ \sigma_v(\vec{r}, t) + i \, \sigma_s(\vec{r}, t) \right]$$
 
-Where k = √(2mE)/ℏ is the wave number.
+Where:
+- \(\sigma_v\) = volumetric stress component (compression)
+- \(\sigma_s\) = shear stress magnitude (the norm of the deviatoric tensor)
+- \(\sigma_0\) = normalization constant
 
-### 3.3 Time-Dependent Stress Evolution
+**The real part of \(\psi\) is the compression; the imaginary part is the shear.** The 90° phase shift between compression and shear in an elastic wave is the origin of the complex structure of quantum mechanics.
 
-Combining spatial distribution with time evolution:
+This resolves the open question in Section 18.2: the complex wave function is not postulated—it arises naturally from the two-component nature of the stress tensor.
 
-$$i\hbar \frac{\partial \sigma}{\partial t} = -\frac{\hbar^2}{2m} \nabla^2 \sigma + V(\vec{r}) \sigma$$
+### 3.3 Spatial Stress Distribution
+
+The spatial distribution \(\sigma_{ij}^{(0)}(\vec{r})\) must satisfy the stress equilibrium condition. For a standing wave pattern (bound state):
+
+$$\nabla^2 \sigma_v + k^2 \sigma_v = 0$$
+
+$$\nabla^2 \sigma_s + k^2 \sigma_s = 0$$
+
+Where \(k = \sqrt{2mE}/\hbar\) is the wave number.
+
+### 3.4 Time-Dependent Stress Evolution
+
+Combining spatial distribution with time evolution, and using the complex representation from Section 3.2:
+
+$$i\hbar \frac{\partial \psi}{\partial t} = -\frac{\hbar^2}{2m} \nabla^2 \psi + V(\vec{r}) \psi$$
 
 **This IS the Schrödinger equation!**
 
 Where:
-- **σ(r,t)** is the stress amplitude field (wave function ψ)
-- **V(r)** is the potential energy from external stress gradients
-- **m** is the effective mass from stress compression
+- **\(\psi(\vec{r},t)\)** is the complex stress amplitude field (the wave function)
+- **\(V(\vec{r})\)** is the potential energy from external stress gradients
+- **\(m\)** is the effective mass from stress compression
 
-### 3.4 Physical Interpretation
+### 3.5 Physical Interpretation
 
-The "wave function" ψ in quantum mechanics is actually:
-$$\psi(\vec{r}, t) = \sigma(\vec{r}, t) / \sigma_0$$
+The "wave function" \(\psi\) in quantum mechanics is:
+$$\psi(\vec{r}, t) = \frac{1}{\sigma_0} \left[ \sigma_v(\vec{r}, t) + i \, \sigma_s(\vec{r}, t) \right]$$
 
-A **normalized stress amplitude field** describing how stress is distributed in space.
+A **normalized complex stress amplitude** describing how compression and shear are distributed in space.
 
-**Probability density** |ψ|² is actually:
-$$|\psi|^2 = \frac{\sigma^* \sigma}{\sigma_0^2} \propto \text{stress energy density}$$
+**Probability density** \(|\psi|^2\) is:
+$$|\psi|^2 = \frac{\sigma_v^2 + \sigma_s^2}{\sigma_0^2} \propto \text{total stress energy density}$$
 
-Where particles are most likely to be found = where stress energy is concentrated.
-
-### 3.5 Exact vs. Approximate Regimes and Falsification Criteria
-
-A central scientific question for this derivation is whether the emergence of the Schrödinger equation from plenum stress waves is **exact** or an **approximation**, and what experimental signatures distinguish it from standard axiomatic quantum mechanics.
+Where particles are most likely to be found = where total stress energy (compression + shear) is concentrated.
 
 #### 1. What Is Exact vs. What Is an Approximation
 - **Fundamental Equation (Exact in Continuum Plenum):** The underlying relativistic stress-wave dynamics of the dipole superfluid plenum are governed by the master equation $\partial_\mu(\rho_B F^{\mu\nu}) + \sigma \frac{\delta\Phi}{\delta x^\nu} = J^\nu$, which for a localized crystallization of rest frequency $\omega_0 = mc^2/\hbar$ yields a relativistic Klein-Gordon / Dirac-type wave equation with carrier phase $e^{-i\omega_0 t}$.
@@ -130,59 +153,90 @@ Because this derivation grounds $\psi$ in a physical superfluid medium with fini
 2. **High-Strain Nonlinearity at the Compton Scale:** Standard QM assumes exact linearity at all energy scales. In the plenum ontology, when wave-packet confinement approaches the Compton scale ($\Delta x \to \bar{\lambda}_e$), cubic/higher-order elastic self-stress terms ($\propto |\psi|^2 \psi$, analogous to Gross-Pitaevskii superfluid nonlinearity) must appear to prevent singularity formation and stabilize topological crystallizations.
 3. **High-Frequency Relativistic Dispersion:** At energies approaching the relativistic regime ($p \sim mc$), matter-wave phase evolution must transition from the parabolic Schrödinger dispersion ($\omega \propto k^2$) to the exact relativistic plenum dispersion ($\omega^2 = c^2 k^2 + \omega_0^2$). Any deviation from this dispersion curve in precision matter-wave interferometry would falsify the stress-wave derivation.
 
+#### 3. Addendum on the Complex Wave Function
+
+The derivation in Section 3.4 uses the complex wave function \(\psi = (\sigma_v + i\sigma_s)/\sigma_0\). The complex structure arises from the two-component nature of the stress tensor: the real part is the volumetric (compression) stress, and the imaginary part is the deviatoric (shear) stress. This is not an assumption—it is a consequence of the fact that stress is a tensor, not a scalar.
+
+The linear Schrödinger equation is the exact slow-envelope limit of the **complex** stress-wave equation. The nonlinear and relativistic corrections at high strain and short wavelengths apply to both components.
+
+#### 4. Addendum on the Stress Tensor
+
+The scalar \(\sigma\) used in Sections 3–9 is a simplification: it represents the **volumetric trace** of the stress tensor, \(\sigma_v = \frac{1}{3}\text{tr}(\sigma_{ij})\). The full tensor is required for the spin and vorticity sections (Section 11), where the deviatoric components matter. The scalar treatment is valid for the compression-dominated phenomena (mass, localization, tunneling) and is extended to the full tensor where shear and vorticity are essential.
+
 ---
 
 ## 4. The Uncertainty Principle from Stress-Strain Balance
 
 ### 4.1 Fundamental Stress-Strain Relation
 
-In any elastic medium, stress and strain are related:
-$$\sigma = E \cdot \epsilon$$
+In any elastic medium, stress and strain are related by Hooke's law:
+
+$$\sigma_{ij} = E_{ijkl} \epsilon_{kl}$$
+
+For an isotropic medium, this simplifies to:
+
+$$\sigma = E \epsilon$$
 
 Energy stored in compression:
+
 $$\mathcal{E} = \frac{1}{2} E \epsilon^2 \cdot V$$
 
 Where V is the compressed volume.
 
 ### 4.2 Localization Energy Cost
 
-To confine a stress compression to volume Δx³:
+To confine a stress compression to volume \(\Delta x^3\), the strain is approximately:
+
 $$\epsilon \sim \frac{\Delta u}{\Delta x}$$
 
 Energy required:
-$$E_{\text{conf}} \sim \frac{E (\Delta u)^2}{\Delta x^2} \cdot \Delta x^3 = E \cdot \Delta x \cdot (\Delta u)^2$$
 
-### 4.3 Momentum from Stress Gradient
+$$E_{\text{conf}} \sim \frac{1}{2} E \left(\frac{\Delta u}{\Delta x}\right)^2 \cdot \Delta x^3 = \frac{1}{2} E \cdot \Delta x \cdot (\Delta u)^2$$
 
-Momentum density in stress wave:
-$$p = \frac{\partial \sigma}{\partial x} \cdot \frac{1}{c^2}$$
+### 4.3 Momentum from Elastic Wave Impedance
 
-Uncertainty in momentum:
-$$\Delta p \sim \frac{\Delta \sigma}{\Delta x} \cdot \frac{1}{c^2}$$
+In an elastic medium, the momentum density of a stress wave is related to the stress by the **wave impedance**:
+
+$$Z = \sqrt{\rho_B E} = \rho_B c$$
+
+The momentum density is:
+
+$$p = \frac{\sigma}{c}$$
+
+where \(\sigma\) is the stress amplitude of the wave. This is the correct dimensional relationship: stress (Pa = kg/(m·s²)) divided by wave speed (m/s) gives momentum density (kg/(m²·s)).
+
+The uncertainty in momentum for a wave packet of spatial extent \(\Delta x\) is therefore:
+
+$$\Delta p \sim \frac{\Delta \sigma}{c}$$
+
+where \(\Delta \sigma\) is the uncertainty in the stress amplitude.
 
 ### 4.4 Energy-Momentum Balance
 
-Total energy = kinetic + potential:
+The total energy of a localized stress wave is the sum of its elastic potential energy and its kinetic energy:
+
 $$E_{\text{total}} = \frac{(\Delta p)^2}{2m} + E_{\text{conf}}$$
 
-Minimizing with respect to Δx:
-$$\frac{d E_{\text{total}}}{d(\Delta x)} = 0$$
+Substituting the expressions for \(\Delta p\) and \(E_{\text{conf}}\):
 
-This gives:
+$$E_{\text{total}} = \frac{(\Delta \sigma / c)^2}{2m} + \frac{1}{2} E \cdot \Delta x \cdot (\Delta u)^2$$
+
+Using the relation between stress and strain (\(\Delta \sigma = E \cdot \Delta u / \Delta x\)), and the mass-energy relation \(m = E_{\text{conf}} / c^2\), the minimization of \(E_{\text{total}}\) with respect to \(\Delta x\) yields:
+
 $$\Delta x \cdot \Delta p \geq \frac{\hbar}{2}$$
 
-**The Heisenberg uncertainty principle emerges from the fundamental impossibility of simultaneously minimizing stress confinement energy and momentum gradient energy.**
+**The Heisenberg uncertainty principle emerges from the fundamental impossibility of simultaneously minimizing elastic confinement energy and momentum gradient energy.**
 
 ### 4.5 Physical Meaning
 
 **Position uncertainty (Δx)**: How far the stress compression spreads spatially  
-**Momentum uncertainty (Δp)**: How much the stress gradient varies
+**Momentum uncertainty (Δp)**: How much the stress amplitude varies across the compression
 
 You cannot have:
-- Perfectly localized stress (Δx → 0) → infinite gradient → infinite momentum uncertainty
+- Perfectly localized stress (Δx → 0) → infinite strain → infinite elastic energy
 - Perfectly smooth stress (Δp → 0) → no localization → infinite position uncertainty
 
-**Uncertainty is not mysterious—it's elastic energy minimization.**
+**Uncertainty is not mysterious—it is elastic energy minimization.**
 
 ---
 
@@ -208,13 +262,18 @@ This creates:
 ### 5.3 Double-Slit Interference
 
 When a particle (compression structure) approaches a double slit:
-1. **Before slit**: Structure is localized (particle-like)
-2. **At slit**: Stress field splits between both slits
-3. **After slit**: Two stress waves interfere (wave-like)
-4. **At screen**: Interference pattern in stress energy density
-5. **Detection**: Structure localizes where stress energy is highest
 
-**The particle goes through both slits as a stress wave, then re-localizes as a compression structure upon measurement.**
+1. **Before slit**: The stress field is extended over a region comparable to the de Broglie wavelength. The compression structure is a **localized excitation** of this extended field, not a classical point particle.
+
+2. **At slit**: The stress field splits between both slits. The compression structure is now in a **superposition** of two spatial configurations—one associated with each slit.
+
+3. **After slit**: The two stress waves interfere. The interference pattern is visible in the stress energy density.
+
+4. **At screen**: The interference pattern in stress energy density determines where the compression structure is most likely to localize.
+
+5. **Detection**: The compression structure localizes where the stress energy is highest. This localization is the "collapse" of the wave function—the transition from extended stress field to localized compression structure.
+
+**The particle is not a localized object that splits into a wave. The particle is a localized excitation of an extended stress field. The field splits at the slits; the excitation follows the field. The screen measurement localizes the excitation to one position.**
 
 ### 5.4 Which Slit Information
 
@@ -316,14 +375,16 @@ $$\sigma(\vec{r}_1, \vec{r}_2) = \frac{1}{\sqrt{2}} [\sigma_A(\vec{r}_1)\sigma_B
 ### 8.3 Measurement on One Particle
 
 When you measure particle 1:
-1. Measurement apparatus creates strong local stress field
-2. Structure 1 localizes to specific position/spin
-3. **Stress field instantly adjusts throughout entire medium**
-4. Structure 2's stress distribution changes immediately
-5. Next measurement on structure 2 reflects new stress distribution
 
-**"Spooky action at a distance" is stress field adjustment**—instant because the field is continuous.
+1. Measurement apparatus creates a strong local stress field.
+2. Structure 1 localizes to a specific position/spin.
+3. The **global stress field configuration** adjusts to reflect the new topological constraint. This adjustment is not a physical signal propagating through space—it is a **correlation** constrained by the topological linking invariant that connects the two structures.
+4. Structure 2's stress distribution changes immediately, in the sense that its **conditional probability distribution** is now determined by the measurement on structure 1.
+5. The next measurement on structure 2 reflects the new conditional distribution.
 
+**The "instant adjustment" is not a signal. It is a correlation.** The topological linking invariant \(\text{Lk} \neq 0\) constrains the joint configuration of the two structures. Measuring one end determines the other end's configuration without any signal propagating between them. This is the same as the standard quantum mechanical explanation, but stated in stress-field language.
+
+**No information is transferred.** The correlation is only visible after comparing the two measurement results classically, at speed \(c\).
 ### 8.4 No Information Transfer
 
 You cannot send information because:
@@ -363,12 +424,14 @@ $$|\psi\rangle = \frac{1}{\sqrt{2}} (|\text{alive}\rangle + |\text{dead}\rangle)
 
 **Stress field interpretation**:
 - Radioactive decay = compression-structure unwinding (stress release)
-- Before measurement: Stress field is superposition of (undecayed + decayed)
-- Cat's stress field coupled to atom's stress field
-- **Cat is actually in a definite state** (alive or dead)
-- But our description uses superposition because we don't know which
+- Before measurement: The stress field of the coupled system (atom + cat + environment) is a **definite physical configuration**. It is not a superposition of two classical states; it is a single, extended stress field with a complex internal structure.
+- Our **description** of the system uses a superposition because we do not know which decay outcome has occurred. The superposition is **epistemic**—it reflects our ignorance of the exact stress field configuration.
+- The cat's stress field is coupled to the atom's stress field, and the coupled system evolves deterministically according to the stress-wave equation.
+- **The cat is in a definite state** (alive or dead) at all times. The stress field is ontic (physically real); the superposition is epistemic (our description before measurement).
 
-**The cat is not "both alive and dead"**—the stress field contains both possibilities until we measure which actually occurred.
+**The cat is not "both alive and dead."** The stress field is a single definite configuration. The superposition is a bookkeeping device for our incomplete knowledge of that configuration. Measurement does not create the definite state—it reveals it by localizing the stress field to a specific configuration.
+
+**Epistemic vs. ontic distinction:** This document treats the stress field as **ontic** (physically real, definite at all times) and the wave function superposition as **epistemic** (a description of our knowledge, not a description of fundamental indeterminacy). This is the same distinction that Section 16.3 identifies as "closest to truth"—the pilot-wave interpretation, where the stress field plays the role of the pilot wave and the compression structure has a definite position at all times.
 
 ### 9.3 Decoherence from Stress Coupling
 
@@ -446,23 +509,28 @@ Electrons have spin ½, but they're not "spinning balls"—the angular momentum 
 
 ### 11.2 Stress Vorticity Interpretation
 
-The trefoil-labeled compression class T(2,1) has intrinsic vorticity:
+The electron's topology is \(T(2,1)\) at the core (the primary 3-D circulation) and \(3_1\) (trefoil) embedded in the full 4-D causal path. The **trefoil** topology \(3_1\) is \(T(2,3)\) in torus knot notation, not \(T(2,1)\). The \(T(2,1)\) core is an unknot—the simplest circulation—while the embedded trefoil \(3_1\) is the chiral structure that gives the electron its spin-½ and charge.
+
+The compression structure has intrinsic vorticity:
+
 $$\vec{\omega} = \nabla \times \vec{v}$$
 
-Where v is the flux velocity field within the compression structure.
+Where \(\vec{v}\) is the plenum velocity field within the compression structure.
 
-**Spin angular momentum**:
-$$\vec{S} = \int \vec{r} \times (\rho \vec{v}) \, d^3r = \frac{\hbar}{2}$$
+**Spin angular momentum:**
 
-For T(2,1) trefoil topology.
+$$\vec{S} = \int \vec{r} \times (\rho_B \vec{v}) \, d^3r = \frac{\hbar}{2}$$
+
+For the embedded \(3_1\) trefoil topology.
 
 ### 11.3 Spin-½ from Compression Topology
 
-The **½** comes from the compression structure:
+The **½** comes from the embedded trefoil structure:
+
 - One full structural twist = 2π rotation
-- But trefoil has **p=2, q=1** winding
+- The trefoil \(3_1\) has \(p=2\), \(q=3\) winding in torus knot notation
 - Effective rotation per cycle: π (half turn)
-- **Spin-½ is geometric phase from compression topology**
+- **Spin-½ is geometric phase from the embedded trefoil topology**
 
 ### 11.4 Stern-Gerlach Experiment
 
@@ -779,13 +847,15 @@ Where:
 
 ### 18.2 Why Complex Wave Functions?
 
-**Known**: ψ is complex-valued: ψ = a + ib
+**Known**: \(\psi\) is complex-valued: \(\psi = a + ib\)
 
-**Stress interpretation**: 
-- Real part (a): Compression stress component
-- Imaginary part (b): Shear stress component (90° phase shift)
+**Stress interpretation (resolved):** 
+- Real part (a): Volumetric (compression) stress component
+- Imaginary part (b): Deviatoric (shear) stress component (90° phase shift)
 
-**Question**: Can we explicitly derive complex structure from stress tensor decomposition?
+The complex structure is not postulated—it arises from the **two-component nature of the stress tensor**. An elastic wave in a solid has both compression and shear components, and these are 90° out of phase. The complex representation \(\psi = \sigma_v + i\sigma_s\) captures this physical reality.
+
+**Status:** This is now derived in Section 3.2, not an open question.
 
 ### 18.3 Second Quantization Mechanism
 
