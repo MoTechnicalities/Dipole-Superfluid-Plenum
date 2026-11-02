@@ -14,6 +14,7 @@ The magnetic moment code achieves 10⁻⁶ accuracy. These topology tools focus 
 - 3D visualization with magnetic polarity colors
 - Interactive exploration of knot structures
 - Reproducible alpha_s holdout residual reporting for bridge validation
+- **Coupled Soliton-Plenum BVP, Virial Check, 3D Multipole Stability ($\ell = 0..4$), and Posimatter/Antimatter Conjugacy (`python/dsp_soliton_stability_solver.py`)**
 
 ### ⚠️ Known Limitations
 - The visualization scripts use normalized dimensionless torus radii ($R = 1.0, a = 0.3$) rather than physical Compton-wavelength scales ($\bar{\lambda}_e \approx 3.86 \times 10^{-13}\text{ m}$), so unscaled $m = \sigma L/c^2$ outputs must be multiplied by the Compton scale factor to yield physical SI masses

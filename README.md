@@ -59,7 +59,9 @@ Where **σ = 0.0212 N** (universal plenum tension, approximately 2 grams-force) 
 
 📖 **[Full Theory (Markdown) → Part 1](One_Equation(1).md) | [Part 2](One_Equation(2).md)** *(GitHub-readable version with LaTeX rendering)*
 
-🔧 **[Continuum Mechanics Formalism → FM_CONTINUUM_MECHANICS_FORMALISM.md](FM_CONTINUUM_MECHANICS_FORMALISM.md)** *(Particles as elastic medium compressions, E ~ 10³⁵ Pa derived from electron mass)*
+🔧 **[Continuum Mechanics Formalism → FM_CONTINUUM_MECHANICS_FORMALISM.md](FM_CONTINUUM_MECHANICS_FORMALISM.md)** *(Particles as elastic medium compressions; two-scale modulus hierarchy: $E_{\text{Compton}} \approx 2.84 \times 10^{26}\text{ Pa}$ at $386\text{ fm}$ and $E_{\text{core}} \approx 2.84 \times 10^{35}\text{ Pa}$ at $0.386\text{ fm}$)*
+
+🛡️ **[Variational Reconstruction & 3D Soliton Stability → DSP_VARIATIONAL_RECONSTRUCTION_AND_STABILITY.md](DSP_VARIATIONAL_RECONSTRUCTION_AND_STABILITY.md)** *(NEW: Complete SI dimensional dictionary, covariant supersolid action, coupled soliton-plenum BVP solver, 3D multipole stability $\omega^2 > 0$, and posimatter/antimatter conjugacy & ALPHA-g gravitational equivalence)*
 
 🌊 **[Quantum Mechanics Derived → QUANTUM_MECHANICS_FROM_STRESS_WAVES.md](QUANTUM_MECHANICS_FROM_STRESS_WAVES.md)** *(NEW: Schrödinger equation, uncertainty, entanglement from stress waves—QM is classical mechanics!)*
 

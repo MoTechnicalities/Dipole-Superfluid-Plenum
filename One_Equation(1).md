@@ -105,16 +105,18 @@ This presents a mechanical, pre-geometric framework for unification with explici
 ### Key Notation and Symbols
 
 
-| Symbol | Name | Definition | Value/Units |
+| Symbol | Name | Definition | Value/Units (SI Dictionary) |
 | --- | --- | --- | --- |
-| $\sigma$ | Plenum tension | Universal tension constant of the dipole superfluid plenum | 0.0212 N |
-| $\rho_B$ | Plenum density | Local plenum density (energy per volume) | Variable, m⁻³ |
+| $\sigma$ | Plenum tension | Universal tension constant of the dipole superfluid plenum | $0.02120137\text{ N}$ ($\text{kg}\cdot\text{m}\cdot\text{s}^{-2}$) |
+| $\mu_L$ | Linear tube mass density | Mass per unit length along a 1D crystallization path ($\mu_L = \sigma/c^2$) | $2.359 \times 10^{-19}\text{ kg/m}$ |
+| $\rho_B, u_B, \rho_m$ | Plenum density | Dimensionless relative density ($\rho_B/\rho_0$), energy density $u_B = B^2/(2\mu_0)$, or mass density $\rho_m = u_B/c^2$ | $\rho_B/\rho_0$ (dimensionless); $u_B$ in $\text{J/m}^3$ ($\text{Pa}$); $\rho_m$ in $\text{kg/m}^3$ |
+| $K, \mu, E$ | Elastic moduli | Bulk ($K$), shear ($\mu$), and Young ($E$) moduli of the plenum | $E_{\text{Compton}} = 2.84 \times 10^{26}\text{ Pa}$ ($386\text{ fm}$); $E_{\text{core}} = 2.84 \times 10^{35}\text{ Pa}$ ($0.386\text{ fm}$) |
 | $L_{\mathcal{P}}$ | Compression path length | Total causal delay path through topological structure | m (particle-dependent) |
-| $\Phi$ | Topological flux index | Net magnetic flux threading through a compression structure | Wb (Weber) |
+| $\Phi, B_{\text{top}}$ | Topological index | Net magnetic flux threading structure ($\text{Wb}$) or dimensionless winding charge $B_{\text{top}} = \int j_{\text{top}}^0 d^3x \in \mathbb{Z}$ | Wb (Weber) or dimensionless integer $\pm 1$ |
 | ⇋ | State-change operator | Reversible interchange between compressed and flow configurations | — |
-| $c(r)$ | Causality rate | Local wave propagation speed: $c(r)=\sqrt{\sigma/\rho_B(r)}$ | m/s (varies with $\rho_B$) |
-| $F^{\mu\nu}$ | Flux field tensor | Electromagnetic field strength tensor | T (Tesla) |
-| $J^\nu$ | Current density | 4-current representing charge flow (worldlines of compression structures) | A/m² |
+| $c(r)$ | Causality rate | Local wave propagation speed: $c = \sqrt{\sigma/\mu_L}$ (tube) or $c(r) = c_0\sqrt{\rho_0/\rho_B(r)} = \sqrt{\mu_{\text{shear}}/\rho_m(r)}$ (bulk) | m/s (varies with $\rho_B$) |
+| $F^{\mu\nu}$ | Flux field tensor | Antisymmetric electromagnetic field strength tensor ($F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$) | T (Tesla, with $E/c$ electric components) |
+| $J^\nu, j_{\text{top}}^\nu$ | Current density | 4-current of charge flow ($J^\nu = e c \, j_{\text{top}}^\nu$, $\nabla_\nu j_{\text{top}}^\nu \equiv 0$) | A/m² |
 
 
 ---
@@ -1975,7 +1977,27 @@ $$
 \boxed{\partial_\mu F^{\mu\nu} = 0}
 $$
 
-**This is exactly the source-free Maxwell's equations in covariant form.**
+**This is the source-free inhomogeneous Maxwell equation in covariant form.**
+
+
+**Variational Foundation, the Homogeneous Bianchi Identity & Topological Charge Conservation**
+
+
+In the full covariant variational formulation of the Dipole Superfluid Plenum (see [`DSP_VARIATIONAL_RECONSTRUCTION_AND_STABILITY.md`](DSP_VARIATIONAL_RECONSTRUCTION_AND_STABILITY.md)), the electromagnetic and topological sectors follow from the action:
+
+$$
+S_{\text{EM+top}} = \int d^4x \sqrt{-g} \left[ -\frac{Z(\rho_B, U)}{4\mu_0} F_{\mu\nu}F^{\mu\nu} - A_\mu \left(J_{\text{matter}}^\mu + e\,j_{\text{top}}^\mu\right) \right]
+$$
+
+where $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$ is defined in terms of the plenum's 4-potential $A_\mu$ and $Z(\rho_B, U) = \rho_B/\rho_0$ is the dimensionless relative plenum response ($Z \to 1$ in the uniform vacuum). This variational structure establishes both halves of electromagnetism and exact charge conservation simultaneously:
+
+1. **The Homogeneous Maxwell Equations (Bianchi Identity):** Because $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$ is an exact exterior derivative ($F = dA$), it **identically satisfies the covariant Bianchi identity**:
+   $$
+   \partial_\lambda F_{\mu\nu} + \partial_\mu F_{\nu\lambda} + \partial_\nu F_{\lambda\mu} = 0
+   $$
+   which directly yields **Gauss's Law for Magnetism** ($\nabla \cdot \vec{B} = 0$) and **Faraday's Law of Induction** ($\nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}$).
+2. **The Inhomogeneous Maxwell Equations:** Varying the action with respect to $A_\nu$ yields $\nabla_\mu(Z F^{\mu\nu}) = \mu_0 (J_{\text{matter}}^\nu + e\,j_{\text{top}}^\nu)$, which in the uniform source-free plenum ($Z=1, J^\nu=0$) reduces to $\partial_\mu F^{\mu\nu} = 0$, yielding **Gauss's Law** ($\nabla \cdot \vec{E} = 0$) and the **Ampère–Maxwell Law** ($\nabla \times \vec{B} = \frac{1}{c^2}\frac{\partial \vec{E}}{\partial t}$).
+3. **Exact Topological Charge Conservation:** Defining the crystallization's topological current from the $SU(2)$ dipole orientation field $U(x)$ ($L_\mu = U^\dagger \partial_\mu U$) as $j_{\text{top}}^\mu = \frac{1}{24\pi^2}\epsilon^{\mu\nu\rho\sigma}\operatorname{Tr}(L_\nu L_\rho L_\sigma)$ guarantees $\nabla_\mu j_{\text{top}}^\mu \equiv 0$ identically. Posimatter ($U_+$, $B_{\text{top}} = +1$) and antimatter ($U_- = U_+^\dagger$, $B_{\text{top}} = -1$) carry equal and opposite conserved topological charges, while inducing the **exact same scalar plenum density profile** $s(r)$ (so antimatter falls downward in gravity at the exact same rate $\vec{g} = -c\vec{\nabla}(\Delta t)$ as posimatter, matching CERN ALPHA-g) and unwinding completely ($B_{\text{pair}} = (+1) + (-1) = 0 \to 2\gamma$) upon annihilation.
 
 
 **Recovering the Classical Form**

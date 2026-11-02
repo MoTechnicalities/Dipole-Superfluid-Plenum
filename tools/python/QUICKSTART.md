@@ -47,6 +47,12 @@ Write report to file:
 ./run_alpha_s_bridge_holdout.sh --out ../../alpha_s_holdout_report.md
 ```
 
+### Coupled Soliton-Plenum BVP & 3D Stability Solver
+```bash
+python3 dsp_soliton_stability_solver.py
+```
+Solves the coupled nonlinear radial Euler-Lagrange equations for the orientation profile $f(r)$ and logarithmic plenum density $s(r) = \ln(n(r)/n_0)$, verifies the virial identity ($<0.5\%$), computes the radial ($K=0$) and non-spherical ($\ell=1,2,3,4$) 3D multipole stability eigenvalues ($\omega^2 > 0$), and verifies posimatter ($B_{\text{top}}=+1$) vs. antimatter ($B_{\text{top}}=-1$) chiral conjugacy and gravitational equivalence.
+
 ## View Results
 
 **Interactive HTML previews:**
